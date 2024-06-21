@@ -16,3 +16,8 @@ What is the IP address of the infected Windows client? **Inspecting the first pa
 What is the MAC address of the infected Windows client? **The mac address can be found in the same way as the mac address.**
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/1b596b48-b65f-455f-a1bc-17aa26d70620)
+
+What is the hostname of the infected Windows client?
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4e5330d2-2b8a-483e-b8cc-24556901a29f)
+
