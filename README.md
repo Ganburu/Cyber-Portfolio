@@ -17,7 +17,7 @@ What is the MAC address of the infected Windows client? **The mac address can be
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/1b596b48-b65f-455f-a1bc-17aa26d70620)
 
-What is the hostname of the infected Windows client?
+What is the hostname of the infected Windows client? There isn't any Dynamic Host Configuration Protocol (DHCP) traffic when filtering. So the host name will have to found through anthoer filtering string called NetBIOS Name Service (NBNS) traffic.
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4e5330d2-2b8a-483e-b8cc-24556901a29f)
 
