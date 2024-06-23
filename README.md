@@ -21,7 +21,7 @@ What is the hostname of the infected Windows client? **There isn't any Dynamic H
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4e5330d2-2b8a-483e-b8cc-24556901a29f)
 
- What is the user account name from the infected Windows host? **In order to find the infected account the Lightweight Directory Access Protocol (LDAP) traffic had to checked. (ldap contains "CN=Users") This was the command used filter through the packect capturers(Pcap).**
+ What is the user account name from the infected Windows host? **In order to find the infected user account the Lightweight Directory Access Protocol (LDAP) traffic had to checked. (ldap contains "CN=Users") This was the command used filter through the packect capturers(Pcap).**
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/bfbc16c7-4e1e-46de-a25a-977c660fc619)
 
