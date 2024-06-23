@@ -25,3 +25,4 @@ What is the hostname of the infected Windows client? **There isn't any Dynamic H
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/bfbc16c7-4e1e-46de-a25a-977c660fc619)
 
+Is there any follow-up activity from other malware? **Other threat hunting methods can be used to check for more potential threats.** 
