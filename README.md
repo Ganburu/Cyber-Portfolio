@@ -15,4 +15,10 @@ What is the URL and SHA-256 hash of the ZIP archive downloaded by the infected W
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/05a054ca-2dab-46d7-9b23-5662a5fe687e)
 
+**To find the SHA-256 Hash I extracted the ZIP File. The Caliente.zip file was exported in the following manner.
+Go to File > Export Objects > HTTP...
+Selected the Caliente ZIP file and clicked "Save".
+To calculate the SHA-256 Hash in side the file I used sha256sum on Linux. The command I put in was sha256sum caliente.zip and came up with the following result.**
+
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/64d1289e-c5a6-4d10-88cb-5f6d1938387c)
+
