@@ -1,6 +1,6 @@
-<h1> professional statement </h1>
-Hello, my name is Vaughn. I have a bachelors in cybersecurity and I am active in the cryptocurrency space. 
-In this course I plan on learning and mastering cybersecurity models, frameworks, and tools. 
-The criteria that I learn taking this course will be applied to personal and future professional endeavors. 
-I hold the CIA triad to be self-evident of Cybersecurtiy professionals' duties and for these standards to be upheld to the highest degree. 
-I am very excited for the future to come in this space.
+<h1> Incident Report Unit 42 Wireshark Lab </h1>
+This lab is from https://unit42.paloaltonetworks.com/feb-wireshark-quiz/
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/7a4b22a2-c454-4554-8cd5-0e1933f23565)
+
+On Feburary 3, 2023 at 17:02 UTC a Windows computer used by 
