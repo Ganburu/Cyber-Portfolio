@@ -11,9 +11,13 @@ What is the IP address, host name and Windows user account name for the infected
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/1b6dcaf5-51be-4ea1-86ce-b64207c5c085)
 
-**To find the hostname I searched for kerbos traffic with Cnamestring (kerbos.CNameString). I double clicked on the first packet with the infected IP address as the source.  I then clicked on the kerbros arrow which led me to another are called "as-req"; scrolling down to "HostAddress" I found the hostname.** It shows in the following image.
+**To find the hostname I searched for kerbos traffic with Cnamestring (kerbos.CNameString). I double clicked on the first packet with the infected IP address as the source.  I then clicked on the kerbros arrow which led me to another are called "as-req"; scrolling down to "HostAddress" I found the hostname. It shows in the following image.**
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/38993bd6-223c-422e-a2d5-3bcfc6d2cf0b)
+
+**To find the User account name I used the same filter as finding the host name. The only difference is instead of selecting the infected IP address from the source column I selected the infeced IP address from the destination column. I used the same method as above clicking on the kerberos arrow drilling down to the as rep arrow and scrolling down to the CNameString which shows the user account name. It is shown in the following image.**
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/5372b9d7-8a79-485f-8e6c-c646b3a80029)
 
 
 What is the URL and SHA-256 hash of the ZIP archive downloaded by the infected Windows host? **To find the URL I put "http.request.method == GET" in the filter bar. This I then searched through the filtered HTTP requests for a URL that ends in .zip. I then followed the TCP stream to see the full request and response and then right-clicked on the relevant packet and chose "Follow" > "TCP Stream". In the TCP stream, I identified the full URL from the GET request.**
