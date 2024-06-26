@@ -11,7 +11,7 @@ What is the IP address, host name and Windows user account name for the infected
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/1b6dcaf5-51be-4ea1-86ce-b64207c5c085)
 
-**To find the hostname I searched for kerbos traffic with Cnamestring (kerbos.CNameString). I double clicked on the first packet with the infected IP address as the source.  I then clicked on the kerbros arrow which led me to another are called "as-req"; scrolling down to HostAddress I found the hostname.** It shows in the folling image.
+**To find the hostname I searched for kerbos traffic with Cnamestring (kerbos.CNameString). I double clicked on the first packet with the infected IP address as the source.  I then clicked on the kerbros arrow which led me to another are called "as-req"; scrolling down to "HostAddress" I found the hostname.** It shows in the following image.
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/38993bd6-223c-422e-a2d5-3bcfc6d2cf0b)
 
