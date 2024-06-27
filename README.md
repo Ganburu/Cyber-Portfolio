@@ -10,25 +10,25 @@ This lab focuses more on the incident report of a security event.(The report tha
 
 **Incident Description:**
 
-*On February 3, 2023, at 17:02 UTC, a Windows-based computer used by Damon Bauer was identified as being infected with an unknown Windows-based malware.
+* On February 3, 2023, at 17:02 UTC, a Windows-based computer used by Damon Bauer was identified as being infected with an unknown Windows-based malware.
 
 **Immediate Actions Taken:**
 
-*At 20:15 UTC, security personnel confiscated the infected host to prevent further spread of the malware and to preserve it for analysis.
+* At 20:15 UTC, security personnel confiscated the infected host to prevent further spread of the malware and to preserve it for analysis.
 
 *The Help Desk team subsequently wiped the infected system and re-imaged it to ensure the removal of any residual malicious software.
 
 **User Actions:**
 
-*Damon Bauer promptly changed his login password as a precautionary measure.
+* Damon Bauer promptly changed his login password as a precautionary measure.
 
-*He was also advised to update any other passwords used on the infected computer to mitigate any potential compromise of his credentials.
+* He was also advised to update any other passwords used on the infected computer to mitigate any potential compromise of his credentials.
 
 **Follow-Up:**
 
-*The incident has been logged, and further analysis of the malware will be conducted to understand its nature and origin.
+* The incident has been logged, and further analysis of the malware will be conducted to understand its nature and origin.
 
-*Additional security measures and user training will be reviewed and potentially updated to prevent future occurrences.
+* Additional security measures and user training will be reviewed and potentially updated to prevent future occurrences.
 
 **Reported by:**
 Vaughn
