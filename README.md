@@ -16,7 +16,7 @@ This lab focuses more on the incident report of a security event.(The report tha
 
 * At 20:15 UTC, security personnel confiscated the infected host to prevent further spread of the malware and to preserve it for analysis.
 
-*The Help Desk team subsequently wiped the infected system and re-imaged it to ensure the removal of any residual malicious software.
+* The Help Desk team subsequently wiped the infected system and re-imaged it to ensure the removal of any residual malicious software.
 
 **User Actions:**
 
@@ -31,8 +31,10 @@ This lab focuses more on the incident report of a security event.(The report tha
 * Additional security measures and user training will be reviewed and potentially updated to prevent future occurrences.
 
 **Reported by:**
-Vaughn
-Security Operations Center(SOC) Analyst
+
+**Vaughn**
+
+**Security Operations Center(SOC) Analyst**
 
 **Contact information**
 
