@@ -4,10 +4,12 @@ This lab focuses more on the incident report of a security event.(The report tha
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/7a4b22a2-c454-4554-8cd5-0e1933f23565)
 
-Incident Report: Malware Infection
+**Incident Report:**
+Malware Infection
 Date and Time of Incident: February 3, 2023, at 17:02 UTC
 
 **Incident Description:**
+
 On February 3, 2023, at 17:02 UTC, a Windows-based computer used by Damon Bauer was identified as being infected with an unknown Windows-based malware.
 
 **Immediate Actions Taken:**
