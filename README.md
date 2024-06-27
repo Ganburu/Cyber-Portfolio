@@ -4,7 +4,7 @@ This lab focuses more on the incident report of a security event.(The report tha
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/7a4b22a2-c454-4554-8cd5-0e1933f23565)
 
-<h1>**Incident Report:**<h1/>
+<h1>**Incident Report:**</h1>
 Malware Infection
 Date and Time of Incident: February 3, 2023, at 17:02 UTC
 
