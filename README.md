@@ -1,6 +1,6 @@
 <h1> Incident Report Unit 42 Wireshark Lab </h1>
 This lab is from https://unit42.paloaltonetworks.com/feb-wireshark-quiz/
-This lab focuses more on the incident report of a security event. Getting the infected IP address, Mac Address, Host Name, or other security event crendientials is explained in my previous wireshark labs.
+This lab focuses more on the incident report of a security event.(The report that will be shown to non-techincal stakeholders.) Getting the infected IP address, Mac Address, Host Name, or other security event crendientials is explained in my previous wireshark labs.
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/7a4b22a2-c454-4554-8cd5-0e1933f23565)
 
