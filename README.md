@@ -38,7 +38,7 @@ Security Operations Center(SOC) Analyst
 
 **2/4/2023** 
 
-
+***END OF REPORT***
 
 Infected IP address in purple. Mac address in yellow.
 
