@@ -5,8 +5,9 @@ This lab is from https://unit42.paloaltonetworks.com/feb-wireshark-quiz/
 
 On Feburary 3, 2023 at 17:02 UTC a Windows computer used by Damon bauer
 
+Infected IP address in purple. Mac address in yellow.
 
-
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/73d8db7b-bf7a-4236-8919-4cf48a6cfe7b)
 
 User Account Name 
 
