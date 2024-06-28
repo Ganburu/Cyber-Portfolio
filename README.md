@@ -13,7 +13,7 @@ IP address in highlighted yellow and Mac Address in highlighted blue.
 
 
 
-To find (http.request) and !(ssdp)
+Upon putting this filter in WireShark "(http.request) and !(ssdp)", I found a out of the ordaniary file (Ztvfo.png) in the traffic from the infected IP Address mentioned earlier.  
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3b4dcaaa-e16f-4ec8-b245-50d735902781)
 
