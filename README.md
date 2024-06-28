@@ -13,9 +13,10 @@ IP address in highlighted yellow and Mac Address in highlighted blue.
 
 
 
-Upon putting this filter in WireShark "(http.request) and !(ssdp)", I found a out of the ordaniary file (Ztvfo.png) in the traffic from the infected IP Address mentioned earlier.  
+Upon putting this filter in WireShark "(http.request) and !(ssdp)", I found a out of the ordaniary file (Ztvfo.png) in the traffic from the infected IP Address mentioned earlier. I then followed the HTTP stream for this packet. 
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3b4dcaaa-e16f-4ec8-b245-50d735902781)
+Once this window was opened I investigated the packet and saw some interresting things. EXAPLIAN WHAT I SAW HERE AND MARK UP BELOW IMAGE
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/6b4390dd-4380-4767-9255-94a63fc73f9f)
 file > export object > http clicked ztfo.png and saved to the default download folder.
