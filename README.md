@@ -11,9 +11,8 @@ IP address in highlighted yellow and Mac Address in highlighted blue.
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4fdbf8ef-8e99-4ee0-90e7-4abac8aad183)
 
-I used the filter "nbns" (NetboisNameService) to find the hostname.  
-![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/d6f2f710-bc28-45de-adc7-49f5129b8ec6)
-
+I used the filter "nbns" (NetboisNameService) to find the hostname and the user account. In the image below the user account is circled in black and the hostname is highlighted in green.
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/386901e9-60f0-4460-a63c-a0e3d4b30ce3)
 
 
 Upon putting this filter in WireShark "(http.request) and !(ssdp)", I found a out of the ordaniary file (Ztvfo.png) in the traffic from the infected IP Address mentioned earlier. I then followed the HTTP stream for this packet. 
