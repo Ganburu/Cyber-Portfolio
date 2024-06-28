@@ -18,10 +18,9 @@ I used the filter "nbns" (NetboisNameService) to find the hostname and the user 
 Upon putting this filter in WireShark "(http.request) and !(ssdp)", I found a out of the ordaniary file (Ztvfo.png) in the traffic from the infected IP Address mentioned earlier. I then followed the HTTP stream for this packet. 
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3b4dcaaa-e16f-4ec8-b245-50d735902781)
-Once this window was opened I investigated the packet and saw some interresting things. EXAPLIAN WHAT I SAW HERE AND MARK UP BELOW IMAGE
+Once this window was opened I exported the Ztvfo.png packet for futher investigation. Here are the steps I took, "file > export object > http clicked ztfo.png, clicked saved". The file saved to my home directory.
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/6b4390dd-4380-4767-9255-94a63fc73f9f)
-file > export object > http clicked ztfo.png and saved to the default download folder.
 
 I opened the terminal on linux to get the hash using the bash command sha256sum Ztvfo.png 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/63ccaeab-f8e5-4815-8847-0c4237c08ff7)
