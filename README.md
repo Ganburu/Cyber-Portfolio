@@ -6,5 +6,13 @@ This lab is from https://unit42.paloaltonetworks.com/january-wireshark-quiz/
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/cce00ab5-4f95-4d8c-ad41-96ede8789dfe)
 
-Here is the infected IP Address and Mac Address.
+To find the infected IP Address and Mac Address, I used my basic filter I created "(http.request or tls.handshake.type eq 1) and !(ssdp)"
+
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/f85e6ca5-c4f9-4266-b9ea-457e7ab92d2e)
+
+To find (http.request) and !(ssdp)
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3b4dcaaa-e16f-4ec8-b245-50d735902781)
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/6b4390dd-4380-4767-9255-94a63fc73f9f)
+file > export object > http clicked ztfo.png and saved to the default download folder.
