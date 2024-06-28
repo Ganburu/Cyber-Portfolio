@@ -8,7 +8,8 @@ This lab is from https://unit42.paloaltonetworks.com/january-wireshark-quiz/
 
 To find the infected IP Address and Mac Address, I used my basic filter I created "(http.request or tls.handshake.type eq 1) and !(ssdp)"
 
-![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/f85e6ca5-c4f9-4266-b9ea-457e7ab92d2e)
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/e20e50c2-d9b3-443f-9bd0-282db736ba15)
+
 
 To find (http.request) and !(ssdp)
 
