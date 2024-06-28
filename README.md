@@ -6,8 +6,7 @@ This lab is from https://unit42.paloaltonetworks.com/january-wireshark-quiz/
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/cce00ab5-4f95-4d8c-ad41-96ede8789dfe)
 
-To find the infected IP Address and Mac Address, I used my basic filter I created "(http.request or tls.handshake.type eq 1) and !(ssdp)"
-IP address in highlighted yellow and Mac Address in highlighted blue. 
+To find the time the malicious traffic started, the infected IP Address, and Mac Address, I used my basic filter I created "(http.request or tls.handshake.type eq 1) and !(ssdp)" Below, the time the malicious traffic started is highlighted in green, IP address highlighted in yellow and Mac Address highlighted in blue. 
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4fdbf8ef-8e99-4ee0-90e7-4abac8aad183)
 
