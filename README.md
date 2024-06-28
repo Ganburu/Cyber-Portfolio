@@ -8,7 +8,8 @@ This lab is from https://unit42.paloaltonetworks.com/january-wireshark-quiz/
 
 To find the time the malicious traffic started, the infected IP Address, and Mac Address, I used my basic filter I created "(http.request or tls.handshake.type eq 1) and !(ssdp)" Below, the time the malicious traffic started is highlighted in green, IP address highlighted in yellow and Mac Address highlighted in blue. 
 
-![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/4fdbf8ef-8e99-4ee0-90e7-4abac8aad183)
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/95102f7d-7a00-4aef-8e4d-d60d4683fcd1)
+
 
 I used the filter "nbns" (NetboisNameService) to find the hostname and the user account. In the image below the user account is circled in black and the hostname is highlighted in green.
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/386901e9-60f0-4460-a63c-a0e3d4b30ce3)
