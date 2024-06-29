@@ -44,18 +44,20 @@ The email shows information about the infected Windows host, one piece of inform
 
 
 
-Incident Report: Malicious Traffic and Data Breach
-Date and Time of Incident: January 5, 2023, at 22:51 UTC
+# Incident Report: Malicious Traffic and Data Breach
+## Date and Time of Incident: January 5, 2023, at 22:51 UTC
 
 Incident Summary:
-On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating from a Windows user account named windows11user. The investigation revealed that the victim had inadvertently downloaded a Trojan disguised as an image file through an email. The Trojan, identified as OriginLogger.exe, is a key logger executable designed to capture and transmit sensitive information.
+On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating from a Windows user account named '**windows11user**'. The investigation revealed that the victim had inadvertently downloaded a Trojan disguised as an image file through an email. The Trojan, identified as '**OriginLogger.exe**', is a key logger executable designed to capture and transmit sensitive information.
 
-Type of Stolen Data:
+**Type of Stolen Data:**
 
-Email accounts
-Web accounts
-Overview of OriginLogger.exe:
-OriginLogger.exe is a type of key logger malware that records keystrokes on the infected machine. This data is then sent to a remote server controlled by the attacker, allowing them to gain access to sensitive information such as login credentials and other personal data.
+* Email accounts
+
+* Web accounts
+Overview of '**OriginLogger.exe**:'
+
+'**OriginLogger.exe**' is a type of key logger malware that records keystrokes on the infected machine. This data is then sent to a remote server controlled by the attacker, allowing them to gain access to sensitive information such as login credentials and other personal data.
 
 Steps Taken to Eliminate the Threat:
 
