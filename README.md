@@ -89,7 +89,8 @@ On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating fro
 
 7. **Network Monitoring and Alerts**:
 
-  * Continuous network monitoring was implemented to detect unusual activities and to promptly respond to any future threats. Alerts were set up to notify security teams of any suspicious traffic.
+     * Continuous network monitoring was implemented to detect unusual activities and to promptly respond to any future threats. Alerts were set up to notify     
+       security teams of any suspicious traffic.
 
 ### Conclusion:
 The incident highlighted the importance of robust cybersecurity measures and user awareness in preventing malware infections. By taking swift action to quarantine, remove the malware, and educate users, we mitigated the immediate threat and strengthened our defenses against future attacks. Further measures, including enhanced email security and continuous monitoring, have been implemented to protect our systems and data.
