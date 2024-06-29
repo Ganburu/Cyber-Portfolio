@@ -64,31 +64,32 @@ On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating fro
 
 1. **Immediate Quarantine and Disconnection**:
 
-* The infected machine was immediately quarantined and disconnected from the network to prevent further data exfiltration and spread of the malware.
+  * The infected machine was immediately quarantined and disconnected from the network to prevent further data exfiltration and spread of the malware.
 
 2. **Malware Removal**:
 
-* Security teams conducted a thorough scan of the infected system using advanced anti-malware tools. The Trojan and any associated malicious files were identified and removed.
+  * Security teams conducted a thorough scan of the infected system using advanced anti-malware tools. The Trojan and any associated malicious files were       
+  identified and removed.
 
 3. **System Reimaging**:
 
-* The affected computer was wiped and re-imaged to ensure complete removal of the malware and to restore the system to a known good state.
+  * The affected computer was wiped and re-imaged to ensure complete removal of the malware and to restore the system to a known good state.
 
 4. **Password Resets**:
 
-* The user windows11user was instructed to change all passwords associated with email and web accounts accessed from the infected machine. This step was crucial to prevent unauthorized access using stolen credentials.
+  * The user windows11user was instructed to change all passwords associated with email and web accounts accessed from the infected machine. This step was crucial   to prevent unauthorized access using stolen credentials.
 
 5. **User Education and Training**:
 
-* The victim and other employees were provided with training on recognizing phishing attempts and the importance of verifying email attachments before opening them.
+  * The victim and other employees were provided with training on recognizing phishing attempts and the importance of verifying email attachments before opening     them.
 
 6. **Enhanced Email Filtering**:
 
-* Email security protocols were enhanced to include more stringent filtering and scanning of attachments to detect and block potentially malicious files.
+  * Email security protocols were enhanced to include more stringent filtering and scanning of attachments to detect and block potentially malicious files.
 
 7. **Network Monitoring and Alerts**:
 
-* Continuous network monitoring was implemented to detect unusual activities and to promptly respond to any future threats. Alerts were set up to notify security teams of any suspicious traffic.
+  * Continuous network monitoring was implemented to detect unusual activities and to promptly respond to any future threats. Alerts were set up to notify security teams of any suspicious traffic.
 
 ### Conclusion:
 The incident highlighted the importance of robust cybersecurity measures and user awareness in preventing malware infections. By taking swift action to quarantine, remove the malware, and educate users, we mitigated the immediate threat and strengthened our defenses against future attacks. Further measures, including enhanced email security and continuous monitoring, have been implemented to protect our systems and data.
