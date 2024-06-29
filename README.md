@@ -33,4 +33,15 @@ Next, I checked the Simple Mail Transfer Protocol (smpt) traffic using the "smpt
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3a3ebabf-96f7-44ca-9a22-f4fb947bee28)
 
+I then exported the packet via IMF istead of HTTP like earlier in the lab.
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/73be1915-83c4-4fa3-afaf-b6469642f362)
+
+Once the packet had been exported I opened the file in Thunderbird to see the content of the message.
+The email shows information about the infected Windows host, one piece of information that is in the eamil is account credentials saved by the victim’s email client (Thunderbird) and web browser (Microsoft Edge). Stolen data includes information such as the operating system, Windows user account name, CPU, amount of RAM and public IP address of the infected host.
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/f13e2428-692c-4422-bf96-382740069950)
+
+
+
 
