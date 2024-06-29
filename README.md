@@ -29,3 +29,8 @@ I then copied the hash and entered into virus total to see if the Ztvfo.png file
 
 ![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/b2b78e45-5c6a-46b6-add6-4f2a890fae05)
 
+Next, I checked the Simple Mail Transfer Protocol (smpt) traffic using the "smpt" filter. These packets represent a single TCP stream of traffic. I then followed the first packet's TCP stream to review the associated email. 
+
+![image](https://github.com/Ganburu/Cybersecurity-Portfolio/assets/162606791/3a3ebabf-96f7-44ca-9a22-f4fb947bee28)
+
+
