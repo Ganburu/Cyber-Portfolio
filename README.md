@@ -44,4 +44,44 @@ The email shows information about the infected Windows host, one piece of inform
 
 
 
+Incident Report: Malicious Traffic and Data Breach
+Date and Time of Incident: January 5, 2023, at 22:51 UTC
+
+Incident Summary:
+On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating from a Windows user account named windows11user. The investigation revealed that the victim had inadvertently downloaded a Trojan disguised as an image file through an email. The Trojan, identified as OriginLogger.exe, is a key logger executable designed to capture and transmit sensitive information.
+
+Type of Stolen Data:
+
+Email accounts
+Web accounts
+Overview of OriginLogger.exe:
+OriginLogger.exe is a type of key logger malware that records keystrokes on the infected machine. This data is then sent to a remote server controlled by the attacker, allowing them to gain access to sensitive information such as login credentials and other personal data.
+
+Steps Taken to Eliminate the Threat:
+
+Immediate Quarantine and Disconnection:
+
+The infected machine was immediately quarantined and disconnected from the network to prevent further data exfiltration and spread of the malware.
+Malware Removal:
+
+Security teams conducted a thorough scan of the infected system using advanced anti-malware tools. The Trojan and any associated malicious files were identified and removed.
+System Reimaging:
+
+The affected computer was wiped and re-imaged to ensure complete removal of the malware and to restore the system to a known good state.
+Password Resets:
+
+The user windows11user was instructed to change all passwords associated with email and web accounts accessed from the infected machine. This step was crucial to prevent unauthorized access using stolen credentials.
+User Education and Training:
+
+The victim and other employees were provided with training on recognizing phishing attempts and the importance of verifying email attachments before opening them.
+Enhanced Email Filtering:
+
+Email security protocols were enhanced to include more stringent filtering and scanning of attachments to detect and block potentially malicious files.
+Network Monitoring and Alerts:
+
+Continuous network monitoring was implemented to detect unusual activities and to promptly respond to any future threats. Alerts were set up to notify security teams of any suspicious traffic.
+Conclusion:
+The incident highlighted the importance of robust cybersecurity measures and user awareness in preventing malware infections. By taking swift action to quarantine, remove the malware, and educate users, we mitigated the immediate threat and strengthened our defenses against future attacks. Further measures, including enhanced email security and continuous monitoring, have been implemented to protect our systems and data.
+
+
 
