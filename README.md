@@ -47,7 +47,8 @@ The email shows information about the infected Windows host, one piece of inform
 # Incident Report: Malicious Traffic and Data Breach
 ## Date and Time of Incident: January 5, 2023, at 22:51 UTC
 
-Incident Summary:
+### Incident Summary:
+
 On January 5, 2023, at 22:51 UTC, malicious traffic was detected originating from a Windows user account named '**windows11user**'. The investigation revealed that the victim had inadvertently downloaded a Trojan disguised as an image file through an email. The Trojan, identified as '**OriginLogger.exe**', is a key logger executable designed to capture and transmit sensitive information.
 
 ### Type of Stolen Data:
