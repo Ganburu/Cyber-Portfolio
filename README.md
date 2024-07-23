@@ -20,7 +20,9 @@ https://botscontent.netlify.app/v1/mission_document.html
 
 Questions:
 
-What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities?
+1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities? index=* sourcetype=fgt* "imreallynotbatman.com"
+
+    192.168.250.70(imreallynotbatman.com) 40.80.148.42(posionivy)?
 
 What company created the web vulnerability scanner used by Po1s0n1vy?
 
