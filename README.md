@@ -20,7 +20,19 @@ https://botscontent.netlify.app/v1/mission_document.html
 
 Questions:
 
-1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities? index=* sourcetype=fgt* "imreallynotbatman.com"
+1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities? <h3>40.80.148.42(posionivy)?</h3>
+
+To start my search I inputed **index=* sourcetype=fgt* "imreallynotbatman.com"** into the Splunk search. Since I do not know which index to look through I put "index*" (* *is a wildcard, which means that all indxes will be displayed*) so Splunk can search through all the indexes of Wayne Enterprises. I only wanted to search through the sourcetype fgt(Fortinet Fortigate), which is a NGFW(Next Generation Firewall) that logs network traffic crossing from internal to external, any alerts/blocks, layer 7 protection, and events that the Fortigate device logs. I also did not know what type of logs to pull from fgt. I put "fgt*" because this will pull all fgt type logs for display. To narrow down this search I was only interested in logs that were related to the **"imnotreallybatman.com"** domain. I added this on to the end of my search query. This resulted in 13,918 events. While scrolling through the first page I saw the attack field which intrigued me. I clicked on this field and saw "Acunetix.Web.Vulnerability.Scanner" which is a web vunerability scannner. The number of files it scanned had a count of 4,145. Hmmm seems odd... I clicked on "Acunetix.Web.Vulnerability.Scanner" which automatically added it to my search query. It returned back the list of 4,145 events mentioned earlier. I expanded the first log an saw a source Ip address of  40.80.148.42. This could possiblly be an IP address from the hacker group know as Po1s0n1vy.
+
+![image](https://github.com/user-attachments/assets/bbc2711d-d2cb-45e8-bfa4-43cdd34ea0d9)
+
+![image](https://github.com/user-attachments/assets/3ffae2b6-af13-42d8-9f89-888a31466226)
+
+![image](https://github.com/user-attachments/assets/0ee07a80-45f6-4c68-828c-f0f366067e9d)
+
+
+
+
 
     192.168.250.70(imreallynotbatman.com) 40.80.148.42(posionivy)?
 
