@@ -37,13 +37,16 @@ To start my search I inputed __index=* sourcetype=fgt* "imreallynotbatman.com"__
 
     192.168.250.70(imreallynotbatman.com)
 
-2. What company created the web vulnerability scanner used by Po1s0n1vy? ###Acunetix
+2. What company created the web vulnerability scanner used by Po1s0n1vy? **Acunetix**
 
-   I found the company that created the vulnerablity scanner in the first log, the exact same way I found the Po1sn0n1vy IP address. 
+I found the company that created the vulnerablity scanner in the first log, the exact same way I found the Po1sn0n1vy IP address. 
 
 ![image](https://github.com/user-attachments/assets/a4bbf9e1-fc6b-430d-8686-ce30a828c088)
 
-What content management system is imreallynotbatman.com likely using?
+3. What content management system is imreallynotbatman.com likely using? **Joomala** _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
+
+![image](https://github.com/user-attachments/assets/ab63f493-c929-41de-8ac5-f83d0f714a91)
+
 
 What is the name of the file that defaced the imreallynotbatman.com website? Please submit only the name of the file with extension?
 
