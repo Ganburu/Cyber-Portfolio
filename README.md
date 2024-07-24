@@ -28,7 +28,8 @@ To start my search I inputed **index=* sourcetype=fgt* "imreallynotbatman.com"**
 
 ![image](https://github.com/user-attachments/assets/3ffae2b6-af13-42d8-9f89-888a31466226)
 
-![image](https://github.com/user-attachments/assets/0ee07a80-45f6-4c68-828c-f0f366067e9d)
+![image](https://github.com/user-attachments/assets/7ec0e6bb-fbf8-47c5-a883-f1103da7528f)
+
 
 
 
