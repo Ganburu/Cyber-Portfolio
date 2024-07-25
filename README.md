@@ -44,7 +44,8 @@ I found the company that created the vulnerablity scanner in the first log, the 
 ![image](https://github.com/user-attachments/assets/a4bbf9e1-fc6b-430d-8686-ce30a828c088)
 
 3. What content management system is imreallynotbatman.com likely using? <h3>Joomla.</h3>
-4. _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
+
+ _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
 
 ![image](https://github.com/user-attachments/assets/ab63f493-c929-41de-8ac5-f83d0f714a91)
 
@@ -59,8 +60,12 @@ Investigating the first log I found my answer.
 
 ![image](https://github.com/user-attachments/assets/ad7c6d5a-5cfc-4143-b1a7-7e5f9d725186)
 
+5. This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack? <h3>prankglassinebracket.jumpingcrab.com</h3>
 
-This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack?
+I used the same method as number four to find this answer.
+
+![image](https://github.com/user-attachments/assets/1669e1c3-997b-4262-825d-9e45708ff897)
+
 
 What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises?
 
