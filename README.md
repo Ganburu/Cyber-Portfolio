@@ -74,7 +74,12 @@ Found in the same manner as 4 & 5.
 ![image](https://github.com/user-attachments/assets/044f0423-8c15-4a26-9a5e-bc041a57016f)
 
 
-What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com?
+7. What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com? **23.22.63.114**
+
+(index=botsv1 sourcetype="suricata" "imreallynotbatman.com" | stats count by src_ip) I used this SPL(Splunk) query because I wanted to know what IP addresses where communicating with the "imreallynotbatman.com" IP via suricata logs and how often via the stats count by SPL command . There where 3 Ip addresses. Two of which I am already familiar with. The "imreallynotbatman.com" IP and the other Po1s0n1vy IP addresses which was doing the vulnerablity scan. This 23.22.63.114 IP is new and unfamiliar to me. This is could be the address that was performing a bruteforce attack on the "imreallynotbatman.com" domain.    
+
+![image](https://github.com/user-attachments/assets/8f7d0b29-4fbf-4f17-9998-c0dc88ee4770)
+
 
 What is the name of the executable uploaded by Po1s0n1vy?
 
