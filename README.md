@@ -43,12 +43,21 @@ I found the company that created the vulnerablity scanner in the first log, the 
 
 ![image](https://github.com/user-attachments/assets/a4bbf9e1-fc6b-430d-8686-ce30a828c088)
 
-3. What content management system is imreallynotbatman.com likely using? **Joomala.** _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
+3. What content management system is imreallynotbatman.com likely using? **Joomla.** _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
 
 ![image](https://github.com/user-attachments/assets/ab63f493-c929-41de-8ac5-f83d0f714a91)
 
 
-What is the name of the file that defaced the imreallynotbatman.com website? Please submit only the name of the file with extension?
+4. What is the name of the file that defaced the imreallynotbatman.com website? Please submit only the name of the file with extension? **poisonivy-is-coming-for-you-batman.jpeg**
+
+Here is my Splunk query *(index=botsv1 sourcetype="suricata" event_type="http" src_ip = 192.168.250.70)* The focus here is on identifying events where the web server's IP address is the source. Typically, a web server appears as the destination, but in this scenario, the attacker gained control of the server and downloaded the defacement file from an external site.
+
+![image](https://github.com/user-attachments/assets/f0dfc84c-916c-4faa-9585-20dd695078df)
+
+Investigating the first log I found my answer.
+
+![image](https://github.com/user-attachments/assets/ad7c6d5a-5cfc-4143-b1a7-7e5f9d725186)
+
 
 This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack?
 
