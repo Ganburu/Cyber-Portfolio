@@ -67,7 +67,12 @@ I used the same method as number four to find this answer.
 ![image](https://github.com/user-attachments/assets/1669e1c3-997b-4262-825d-9e45708ff897)
 
 
-What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises?
+6. What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises? <h3>23.22.63.114</h3>
+
+Found in the same manner as 4 & 5.
+
+![image](https://github.com/user-attachments/assets/044f0423-8c15-4a26-9a5e-bc041a57016f)
+
 
 What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com?
 
