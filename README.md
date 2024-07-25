@@ -43,7 +43,8 @@ I found the company that created the vulnerablity scanner in the first log, the 
 
 ![image](https://github.com/user-attachments/assets/a4bbf9e1-fc6b-430d-8686-ce30a828c088)
 
-3. What content management system is imreallynotbatman.com likely using? **Joomla.** _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
+3. What content management system is imreallynotbatman.com likely using? ###Joomla.
+4. _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
 
 ![image](https://github.com/user-attachments/assets/ab63f493-c929-41de-8ac5-f83d0f714a91)
 
