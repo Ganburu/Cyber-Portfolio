@@ -86,7 +86,12 @@ Investigating the unfamiliar IP address, I see that under my SPL search this add
 
 
 
-What is the name of the executable uploaded by Po1s0n1vy?
+What is the name of the executable uploaded by Po1s0n1vy? **3791.exe**
+
+Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotbatman.com" "*.exe") I was only interested in logs that contained .exe. Thus alist of 55 events displayed and this the 3791.exe is unfamiliar to me....this has to be it.
+
+![image](https://github.com/user-attachments/assets/36dc8384-82fa-4b1f-9c5d-500073f6329c)
+
 
 What is the MD5 hash of the executable uploaded?
 
