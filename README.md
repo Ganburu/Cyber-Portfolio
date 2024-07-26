@@ -88,12 +88,23 @@ Investigating the unfamiliar IP address, I see that under my SPL search this add
 
 What is the name of the executable uploaded by Po1s0n1vy? **3791.exe**
 
-Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotbatman.com" "*.exe") I was only interested in logs that contained .exe. Thus alist of 55 events displayed and this the 3791.exe is unfamiliar to me....this has to be it.
+Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotbatman.com" "*.exe") I was only interested in logs that contained .exe. Thus a list of 55 events displayed and the 3791.exe is unfamiliar to me....this has to be it.
 
 ![image](https://github.com/user-attachments/assets/36dc8384-82fa-4b1f-9c5d-500073f6329c)
 
 
 What is the MD5 hash of the executable uploaded?
+
+(index=botsv1 sourcetype=*  "imreallynotbatman.com" "3791.exe" signature=*)
+I added the signature source to the end of my query to find the hash signature for the 3791.exe. Since this is not in MD5 hash format I copied the hash.
+
+![image](https://github.com/user-attachments/assets/64769ee6-f9e6-4a30-834d-4fd19f363479)
+
+I pasted the file in virustotal. Under the details section is where to find the MD5 hash. Oh and btw this is a virus...not good :(.
+
+![image](https://github.com/user-attachments/assets/8c8b8d77-1973-453b-8ad3-daa80ef7caf9)
+
+
 
 GCPD reported that common TTPs (Tactics, Techniques, Procedures) for the Po1s0n1vy APT group, if initial compromise fails, is to send a spear phishing email with custom malware attached to their intended target. This malware is usually connected to Po1s0n1vys initial attack infrastructure. Using research techniques, provide the SHA256 hash of this malware.
 
