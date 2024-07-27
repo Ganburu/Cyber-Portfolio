@@ -113,19 +113,29 @@ To find the first brute force password I decided to  sort the Post request from 
 ![image](https://github.com/user-attachments/assets/45b81ef5-90db-40c1-8a8a-f89b015f882f)
 
 
-12. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it?
+12. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it? **yellow**
 
-13. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
+index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+| rex field=form_data "passwd=(?<pw>[y])" 
+| rex field=form_data "username=(?<un>\w+)" 
+| table _time un pw length
+
+I know a Coldplay song called yellow. So I just used regex to look for passwords starting with y. I just searched through pages until I saw a y in the pw column and that how I found the password attempt equal to yeallow.
+
+![image](https://github.com/user-attachments/assets/546b112e-8839-4725-a064-ce3cd012598b)
+
+![image](https://github.com/user-attachments/assets/cc3e7892-2934-4aed-bf39-76b16d01ff4a)
+
+14. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
 
 index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
 | rex field=form_data "username=(?<un>\w+)" 
 | table _time un pw
 
-I created a table using regex and the table command to see the last time the brute force attempt happened.
+I used regex and created a table to see the last time the brute force attempt happened.
 
 ![image](https://github.com/user-attachments/assets/05154dc1-87d7-4199-aba1-99f5fe1d8ff0)
-
 
 14. What was the average password length used in the password brute forcing attempt? **6**
 
@@ -141,6 +151,30 @@ To find the average length added the eval command to track the length of passwor
 ![image](https://github.com/user-attachments/assets/09b417d6-3cfc-4327-98bd-02c4c531efd5)
 
 
-16. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?
+16. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?**92.17**
 
-How many unique passwords were attempted in the brute force attempt?
+To find this answer I just subtracted the first login attempt time from the last login attempt time.
+
+First login attempt.
+
+![image](https://github.com/user-attachments/assets/df912d25-dcdb-44ca-b926-d4fd7aacb780)
+
+
+last login attempt.
+
+![image](https://github.com/user-attachments/assets/2508448d-8b5e-4cc3-ac4b-723d68d3486f)
+
+
+
+18. How many unique passwords were attempted in the brute force attempt?**412**
+
+index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+| rex field=form_data "passwd=(?<pw>\w+)" 
+| rex field=form_data "username=(?<un>\w+)" 
+| eval length=len(pw) | table _time un pw length
+| dedup pw
+
+I added "dedup pw" to take out repeated passwords. 
+
+![image](https://github.com/user-attachments/assets/ab619321-f159-4fbd-8c4a-eaf44b87eb35)
+
