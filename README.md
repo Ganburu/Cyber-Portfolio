@@ -117,13 +117,30 @@ To find the first brute force password I decided to  sort the Post request from 
 
 13. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
 
-    u
+index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+| rex field=form_data "passwd=(?<pw>\w+)" 
+| rex field=form_data "username=(?<un>\w+)" 
+| table _time un pw
+
+I created a table using regex and the table command to see the last time the brute force attempt happened.
 
 ![image](https://github.com/user-attachments/assets/05154dc1-87d7-4199-aba1-99f5fe1d8ff0)
 
 
-What was the average password length used in the password brute forcing attempt?
+14. What was the average password length used in the password brute forcing attempt? **6**
 
-How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?
+index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+| rex field=form_data "passwd=(?<pw>\w+)" 
+| rex field=form_data "username=(?<un>\w+)" 
+| eval length=len(pw) 
+| sort length
+| table _time un pw length
+
+To find the average length added the eval command to track the length of passwords then I used the sort command to sort the password list by length. I then visually looked through the pages Splunk provided and saw that the majority of the password lengths were 6.
+
+![image](https://github.com/user-attachments/assets/09b417d6-3cfc-4327-98bd-02c4c531efd5)
+
+
+16. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?
 
 How many unique passwords were attempted in the brute force attempt?
