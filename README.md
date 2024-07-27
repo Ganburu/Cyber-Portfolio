@@ -76,7 +76,7 @@ Found in the same manner as 4 & 5.
 
 7. What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com? **23.22.63.114**
 
-(index=botsv1 sourcetype="suricata" "imreallynotbatman.com" | stats count by src_ip) I used this SPL(Splunk) query because I wanted to know what IP addresses where communicating with the "imreallynotbatman.com" IP via suricata logs and how often via the stats count by SPL command . There where 3 Ip addresses. Two of which I am already familiar with. The "imreallynotbatman.com" IP and the other Po1s0n1vy IP addresses which was doing the vulnerablity scan. This 23.22.63.114 IP is new and unfamiliar to me. This is could be the address that was performing a bruteforce attack on the "imreallynotbatman.com" domain.   
+*(index=botsv1 sourcetype="suricata" "imreallynotbatman.com" | stats count by src_ip)* I used this SPL(Splunk) query because I wanted to know what IP addresses where communicating with the "imreallynotbatman.com" IP via suricata logs and how often via the stats count by SPL command . There where 3 Ip addresses. Two of which I am already familiar with. The "imreallynotbatman.com" IP and the other Po1s0n1vy IP addresses which was doing the vulnerablity scan. This 23.22.63.114 IP is new and unfamiliar to me. This is could be the address that was performing a bruteforce attack on the "imreallynotbatman.com" domain.   
 
 ![image](https://github.com/user-attachments/assets/8f7d0b29-4fbf-4f17-9998-c0dc88ee4770)
 
@@ -95,7 +95,7 @@ Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotb
 
 10. What is the MD5 hash of the executable uploaded? **aae3f5a29935e6abcc2c2754d12a9af0**
 
-(index=botsv1 sourcetype=*  "imreallynotbatman.com" "3791.exe" signature=*)
+*(index=botsv1 sourcetype=*  "imreallynotbatman.com" "3791.exe" signature=*)
 I added the signature source to the end of my query to find the hash signature for the 3791.exe. Since this is not in MD5 hash format I copied the hash.
 
 ![image](https://github.com/user-attachments/assets/64769ee6-f9e6-4a30-834d-4fd19f363479)
@@ -105,15 +105,22 @@ I pasted the file in virustotal. Under the details section is where to find the 
 ![image](https://github.com/user-attachments/assets/8c8b8d77-1973-453b-8ad3-daa80ef7caf9)
 
 
-11. GCPD reported that common TTPs (Tactics, Techniques, Procedures) for the Po1s0n1vy APT group, if initial compromise fails, is to send a spear phishing email with custom malware attached to their intended target. This malware is usually connected to Po1s0n1vys initial attack infrastructure. Using research techniques, provide the SHA256 hash of this malware.
+11. What was the first brute force password used? **12345678**
+*(index=botsv1 sourcetype=stream:http  "imreallynotbatman" http_method=POST src_ip=23.22.63.114 | sort _time)*
 
-What special hex code is associated with the customized malware discussed in question 111?
+To find the first brute force password I decided to  sort the Post request from the malicious IP address by time. I selected the first event. Investiagating the event, I found my answer.
 
-What was the first brute force password used?
+![image](https://github.com/user-attachments/assets/45b81ef5-90db-40c1-8a8a-f89b015f882f)
 
-One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it?
 
-What was the correct password for admin access to the content management system running "imreallynotbatman.com"?
+12. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it?
+
+13. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
+
+    u
+
+![image](https://github.com/user-attachments/assets/05154dc1-87d7-4199-aba1-99f5fe1d8ff0)
+
 
 What was the average password length used in the password brute forcing attempt?
 
