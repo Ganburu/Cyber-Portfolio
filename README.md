@@ -1,6 +1,1 @@
-<h1> professional statement </h1>
-Hello, my name is Vaughn. I have a bachelors in cybersecurity and I am active in the cyber space. 
-In this github I plan on learning and mastering cybersecurity models, frameworks, and tools. 
-The criteria that I learn taking this journey will be applied to personal and future professional endeavors. 
-I hold the CIA triad to be self-evident of Cybersecurtiy professionals' duties and for these standards to be upheld to the highest degree. 
-I am very excited for the future to come in this space.
+On September 30, 2016, at the Wayne Enterprises' Security Operations Center(SOC), A memo from Gotham City Police Department (GCPD). Apparently GCPD has found evidence online (http://pastebin.com/Gw6dWjS9) that the website www.imreallynotbatman.com hosted on Wayne Enterprises' IP address space has been compromised. The group has multiple objectives... but a key aspect of their modus operandi is to deface websites in order to embarrass their victim. Lucius,the SOC lead, asked Vaughn to determine if www.imreallynotbatman.com. (the personal blog of Wayne Corporations CEO) was really compromised.
