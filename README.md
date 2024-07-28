@@ -30,13 +30,6 @@ To start my search I inputed __index=* sourcetype=fgt* "imreallynotbatman.com"__
 
 ![image](https://github.com/user-attachments/assets/7ec0e6bb-fbf8-47c5-a883-f1103da7528f)
 
-
-
-
-
-
-    192.168.250.70(imreallynotbatman.com)
-
 2. What company created the web vulnerability scanner used by Po1s0n1vy? **Acunetix**
 
 I found the company that created the vulnerablity scanner in the first log, the exact same way I found the Po1sn0n1vy IP address. 
