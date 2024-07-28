@@ -20,9 +20,9 @@ https://botscontent.netlify.app/v1/mission_document.html
 
 Questions:
 
-1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities? <h3>40.80.148.42(posionivy)?</h3>
+1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities? **40.80.148.42(posionivy)**
 
-To start my search I inputed __index=* sourcetype=fgt* "imreallynotbatman.com"__ into the Splunk search. Since I do not know which index to look through I put "index*" (* *is a wildcard, which means that all indxes will be displayed*) so Splunk can search through all the indexes of Wayne Enterprises. I only wanted to search through the sourcetype fgt(Fortinet Fortigate), which is a NGFW(Next Generation Firewall) that logs network traffic crossing from internal to external, any alerts/blocks, layer 7 protection, and events that the Fortigate device logs. I also did not know what type of logs to pull from fgt. I put "fgt*" because this will pull all fgt type logs for display. To narrow down this search I was only interested in logs that were related to the **"imnotreallybatman.com"** domain. I added this on to the end of my search query. This resulted in 13,918 events. While scrolling through the first page I saw the attack field which intrigued me. I clicked on this field and saw "Acunetix.Web.Vulnerability.Scanner" which is a web vunerability scannner. The number of files it scanned had a count of 4,145. Hmmm seems odd... I clicked on "Acunetix.Web.Vulnerability.Scanner" which automatically added it to my search query. It returned back the list of 4,145 events mentioned earlier. I expanded the first log an saw a source Ip address of  40.80.148.42. This could possiblly be an IP address from the hacker group know as Po1s0n1vy.
+To start my investigation I inputed __index=* sourcetype=fgt* "imreallynotbatman.com"__ into the Splunk search. Since I do not know which index to look through I put "index*" (* *is a wildcard, which means that all indxes will be displayed*) so Splunk can search through all the indexes of Wayne Enterprises. I only wanted to search through the sourcetype fgt(Fortinet Fortigate), which is a NGFW(Next Generation Firewall) that logs network traffic crossing from internal to external, any alerts/blocks, layer 7 protection, and events that the Fortigate device logs. I also did not know what type of logs to pull from fgt. I put "fgt*" because this will pull all fgt type logs for display. To narrow down this search I was only interested in logs that were related to the **"imnotreallybatman.com"** domain. I added this on to the end of my search query. This resulted in 13,918 events. While scrolling through the first page I saw the attack field which intrigued me. I clicked on this field and saw "Acunetix.Web.Vulnerability.Scanner" which is a web vunerability scannner. The number of files it scanned had a count of 4,145. Hmmm seems odd... I clicked on "Acunetix.Web.Vulnerability.Scanner" which automatically added it to my search query. It returned back the list of 4,145 events mentioned earlier. I expanded the first log and saw a source Ip address of  40.80.148.42. This could possiblly be an IP address from the hacker group known as Po1s0n1vy.
 
 ![image](https://github.com/user-attachments/assets/bbc2711d-d2cb-45e8-bfa4-43cdd34ea0d9)
 
@@ -36,7 +36,7 @@ I found the company that created the vulnerablity scanner in the first log, the 
 
 ![image](https://github.com/user-attachments/assets/a4bbf9e1-fc6b-430d-8686-ce30a828c088)
 
-3. What content management system is imreallynotbatman.com likely using? <h3>Joomla.</h3>
+3. What content management system is imreallynotbatman.com likely using? **Joomla.**
 
  _Here is the search I used (index=* sourcetype=fgt* "imreallynotbatman.com") clicked on second log_
 
@@ -53,14 +53,14 @@ Investigating the first log I found my answer.
 
 ![image](https://github.com/user-attachments/assets/ad7c6d5a-5cfc-4143-b1a7-7e5f9d725186)
 
-5. This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack? <h3>prankglassinebracket.jumpingcrab.com</h3>
+5. This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack? **prankglassinebracket.jumpingcrab.com**
 
 I used the same method as number four to find this answer.
 
 ![image](https://github.com/user-attachments/assets/1669e1c3-997b-4262-825d-9e45708ff897)
 
 
-6. What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises? <h3>23.22.63.114</h3>
+6. What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises? **23.22.63.114**
 
 Found in the same manner as 4 & 5.
 
@@ -69,7 +69,7 @@ Found in the same manner as 4 & 5.
 
 7. What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com? **23.22.63.114**
 
-*(index=botsv1 sourcetype="suricata" "imreallynotbatman.com" | stats count by src_ip)* I used this SPL(Splunk) query because I wanted to know what IP addresses where communicating with the "imreallynotbatman.com" IP via suricata logs and how often via the stats count by SPL command . There where 3 Ip addresses. Two of which I am already familiar with. The "imreallynotbatman.com" IP and the other Po1s0n1vy IP addresses which was doing the vulnerablity scan. This 23.22.63.114 IP is new and unfamiliar to me. This is could be the address that was performing a bruteforce attack on the "imreallynotbatman.com" domain.   
+*(index=botsv1 sourcetype="suricata" "imreallynotbatman.com" | stats count by src_ip)* I used this SPL(Splunk) query because I wanted to know what IP addresses were communicating with the "imreallynotbatman.com" IP via suricata logs and how often via the stats count by SPL command. There were 3 Ip addresses and two of which I am already familiar with. The "imreallynotbatman.com" IP and the other Po1s0n1vy IP addresses which was doing the vulnerablity scan. This "23.22.63.114" IP is new and unfamiliar to me. This is could be the address that was performing a bruteforce attack on the "imreallynotbatman.com" domain.   
 
 ![image](https://github.com/user-attachments/assets/8f7d0b29-4fbf-4f17-9998-c0dc88ee4770)
 
@@ -77,14 +77,11 @@ Found in the same manner as 4 & 5.
 
 ![image](https://github.com/user-attachments/assets/c484d8f2-24a5-482a-8c6c-73d5db5addb1)
 
-
-
 9. What is the name of the executable uploaded by Po1s0n1vy? **3791.exe**
 
 Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotbatman.com" "*.exe") I was only interested in logs that contained .exe. Thus a list of 55 events displayed and the 3791.exe is unfamiliar to me....this has to be it.
 
 ![image](https://github.com/user-attachments/assets/36dc8384-82fa-4b1f-9c5d-500073f6329c)
-
 
 10. What is the MD5 hash of the executable uploaded? **aae3f5a29935e6abcc2c2754d12a9af0**
 
@@ -97,7 +94,6 @@ I pasted the file in virustotal. Under the details section is where to find the 
 
 ![image](https://github.com/user-attachments/assets/8c8b8d77-1973-453b-8ad3-daa80ef7caf9)
 
-
 11. What was the first brute force password used? **12345678**
 *(index=botsv1 sourcetype=stream:http  "imreallynotbatman" http_method=POST src_ip=23.22.63.114 | sort _time)*
 
@@ -105,13 +101,12 @@ To find the first brute force password I decided to  sort the Post request from 
 
 ![image](https://github.com/user-attachments/assets/45b81ef5-90db-40c1-8a8a-f89b015f882f)
 
-
 12. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it? **yellow**
 
-index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+_index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>[y])" 
 | rex field=form_data "username=(?<un>\w+)" 
-| table _time un pw length
+| table _time un pw length_
 
 I know a Coldplay song called yellow. So I just used regex to look for passwords starting with y. I just searched through pages until I saw a y in the pw column and that how I found the password attempt equal to yeallow.
 
@@ -121,10 +116,10 @@ I know a Coldplay song called yellow. So I just used regex to look for passwords
 
 14. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
 
-index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+_index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
 | rex field=form_data "username=(?<un>\w+)" 
-| table _time un pw
+| table _time un pw_
 
 I used regex and created a table to see the last time the brute force attempt happened.
 
@@ -132,12 +127,12 @@ I used regex and created a table to see the last time the brute force attempt ha
 
 14. What was the average password length used in the password brute forcing attempt? **6**
 
-index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+_index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
 | rex field=form_data "username=(?<un>\w+)" 
 | eval length=len(pw) 
 | sort length
-| table _time un pw length
+| table _time un pw length_
 
 To find the average length added the eval command to track the length of passwords then I used the sort command to sort the password list by length. I then visually looked through the pages Splunk provided and saw that the majority of the password lengths were 6.
 
@@ -161,11 +156,11 @@ last login attempt.
 
 18. How many unique passwords were attempted in the brute force attempt?**412**
 
-index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
+_index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
 | rex field=form_data "username=(?<un>\w+)" 
 | eval length=len(pw) | table _time un pw length
-| dedup pw
+| dedup pw_
 
 I added "dedup pw" to take out repeated passwords. 
 
