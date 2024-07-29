@@ -73,17 +73,17 @@ Found in the same manner as 4 & 5.
 
 ![image](https://github.com/user-attachments/assets/8f7d0b29-4fbf-4f17-9998-c0dc88ee4770)
 
-8. Investigating the unfamiliar IP address, I see that under my SPL search this address produced 1648 events, all but one event happended at 9:46pm. That is suspicious, this IP address is the number one suspect for the bruteforce attack.
+Investigating the unfamiliar IP address, I see that under my SPL search this address produced 1648 events, all but one event happended at 9:46pm. That is suspicious, this IP address is the number one suspect for the bruteforce attack.
 
 ![image](https://github.com/user-attachments/assets/c484d8f2-24a5-482a-8c6c-73d5db5addb1)
 
-9. What is the name of the executable uploaded by Po1s0n1vy? **3791.exe**
+8. What is the name of the executable uploaded by Po1s0n1vy? **3791.exe**
 
 Here is the SPL command I used (index=botsv1 sourcetype="suricata" "imreallynotbatman.com" "*.exe") I was only interested in logs that contained .exe. Thus a list of 55 events displayed and the 3791.exe is unfamiliar to me....this has to be it.
 
 ![image](https://github.com/user-attachments/assets/36dc8384-82fa-4b1f-9c5d-500073f6329c)
 
-10. What is the MD5 hash of the executable uploaded? **aae3f5a29935e6abcc2c2754d12a9af0**
+9. What is the MD5 hash of the executable uploaded? **aae3f5a29935e6abcc2c2754d12a9af0**
 
 *(index=botsv1 sourcetype=*  "imreallynotbatman.com" "3791.exe" signature=*)
 I added the signature source to the end of my query to find the hash signature for the 3791.exe. Since this is not in MD5 hash format I copied the hash.
@@ -94,14 +94,14 @@ I pasted the file in virustotal. Under the details section is where to find the 
 
 ![image](https://github.com/user-attachments/assets/8c8b8d77-1973-453b-8ad3-daa80ef7caf9)
 
-11. What was the first brute force password used? **12345678**
+10. What was the first brute force password used? **12345678**
 *(index=botsv1 sourcetype=stream:http  "imreallynotbatman" http_method=POST src_ip=23.22.63.114 | sort _time)*
 
 To find the first brute force password I decided to  sort the Post request from the malicious IP address by time. I selected the first event. Investiagating the event, I found my answer.
 
 ![image](https://github.com/user-attachments/assets/45b81ef5-90db-40c1-8a8a-f89b015f882f)
 
-12. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it? **yellow**
+11. One of the passwords in the brute force attack is James Brodsky's favorite Coldplay song. We are looking for a six character word on this one. Which is it? **yellow**
 
 _index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>[y])" 
@@ -114,7 +114,7 @@ I know a Coldplay song called yellow. So I just used regex to look for passwords
 
 ![image](https://github.com/user-attachments/assets/cc3e7892-2934-4aed-bf39-76b16d01ff4a)
 
-14. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
+12. What was the correct password for admin access to the content management system running "imreallynotbatman.com"?**batman**
 
 _index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
@@ -125,7 +125,7 @@ I used regex and created a table to see the last time the brute force attempt ha
 
 ![image](https://github.com/user-attachments/assets/05154dc1-87d7-4199-aba1-99f5fe1d8ff0)
 
-14. What was the average password length used in the password brute forcing attempt? **6**
+13. What was the average password length used in the password brute forcing attempt? **6**
 
 _index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
@@ -139,7 +139,7 @@ To find the average length added the eval command to track the length of passwor
 ![image](https://github.com/user-attachments/assets/09b417d6-3cfc-4327-98bd-02c4c531efd5)
 
 
-16. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?**92.17**
+14. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?**92.17**
 
 To find this answer I just subtracted the first login attempt time from the last login attempt time.
 
@@ -154,7 +154,7 @@ last login attempt.
 
 
 
-18. How many unique passwords were attempted in the brute force attempt?**412**
+15. How many unique passwords were attempted in the brute force attempt?**412**
 
 _index=botsv1 sourcetype=stream:http  "imreallynotbatman" form_data="*username=*" form_data="*&passwd=*"
 | rex field=form_data "passwd=(?<pw>\w+)" 
