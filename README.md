@@ -73,7 +73,7 @@ Found in the same manner as 4 & 5.
 
 ![image](https://github.com/user-attachments/assets/8f7d0b29-4fbf-4f17-9998-c0dc88ee4770)
 
-Investigating the unfamiliar IP address, I see that under my SPL search this address produced 1648 events, all but one event happended at 9:46pm. That is suspicious, this IP address is the number one suspect for the bruteforce attack.
+Investigating the unfamiliar IP address, I see that under my SPL search this address produced 1648 events, all but one event happended at 9:46pm. That is suspicious, the IP address "23.22.63.114" is the number one suspect for the bruteforce attack.
 
 ![image](https://github.com/user-attachments/assets/c484d8f2-24a5-482a-8c6c-73d5db5addb1)
 
