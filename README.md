@@ -1,15 +1,16 @@
 <h1>Incident Report: Cybersecurity Breach at Wayne Enterprises</h1>
-## Date of Incident: September 30, 2016 ##
 
-Reported by: Gotham City Police Department (GCPD)
+<h2>Date of Incident: September 30, 2016</h2>
 
-Investigated by: Lucius, SOC Lead, and Vaughn Rhodes
+<h3>Reported by: Gotham City Police Department (GCPD)</h3>
 
-Incident Summary:
+<h3>Investigated by: Vaughn</h3>
 
-On September 30, 2016, the Wayne Enterprises Security Operations Center (SOC) received a memo from the Gotham City Police Department (GCPD) indicating evidence of a compromised website hosted on Wayne Enterprises' IP address space. The compromised website, www.imreallynotbatman.com, is the personal blog of Wayne Enterprises' CEO.
+<h3>Incident Summary:</h3>
 
-Details of Compromise:
+**On September 30, 2016, the Wayne Enterprises Security Operations Center (SOC) received a memo from the Gotham City Police Department (GCPD) indicating evidence of a compromised website hosted on Wayne Enterprises' IP address space. The compromised website, www.imreallynotbatman.com, is the personal blog of Wayne Enterprises' CEO.**
+
+**Details of Compromise:**
 
 Source of Evidence: The evidence was found online on Pastebin (http://pastebin.com/Gw6dWjS9).
 Malicious IP Addresses:
