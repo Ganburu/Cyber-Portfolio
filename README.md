@@ -1,5 +1,5 @@
 <h1>Incident Report: Cybersecurity Breach at Wayne Enterprises</h1>
-## Date of Incident: September 30, 2016
+## Date of Incident: September 30, 2016 ##
 
 Reported by: Gotham City Police Department (GCPD)
 
