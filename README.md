@@ -1,6 +1,6 @@
 <h1>Incident Report: Cybersecurity Breach at Wayne Enterprises</h1>
 
-<h2>Date of Incident: September 30, 2016</h2>
+<h2>Date of Incident: September 30, 2024</h2>
 
 <h3>Reported by: Gotham City Police Department (GCPD)</h3>
 
@@ -8,7 +8,7 @@
 
 <h3>Incident Summary:</h3>
 
-**On September 30, 2016, the Wayne Enterprises Security Operations Center (SOC) received a memo from the Gotham City Police Department (GCPD) indicating evidence of a compromised website hosted on Wayne Enterprises' IP address space. The compromised website, www.imreallynotbatman.com, is the personal blog of Wayne Enterprises' CEO.**
+**On September 30, 2024, the Wayne Enterprises Security Operations Center (SOC) received a memo from the Gotham City Police Department (GCPD) indicating evidence of a compromised website hosted on Wayne Enterprises' IP address space. The compromised website, www.imreallynotbatman.com, is the personal blog of Wayne Enterprises' CEO.**
 
 <h3>Details of Compromise:</h3>
 
