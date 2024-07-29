@@ -33,47 +33,20 @@ Using Splunk Enterprise Security SIEM, the SOC identified the two suspicious IP 
 
 1. Immediate Actions:
 
-- Isolate the Server: Immediately isolate the compromised server to prevent further damage.
-- Remove Malicious Files: Delete  _"3791.exe"_ and _"agent.php"_ from the server.
-- Change Credentials: Change all passwords and review user access controls to prevent unauthorized access.
+  - Isolate the Server: Immediately isolate the compromised server to prevent further damage.
+  - Remove Malicious Files: Delete  _"3791.exe"_ and _"agent.php"_ from the server.
+  - Change Credentials: Change all passwords and review user access controls to prevent unauthorized access.
 
 2. Security Enhancements:
 
-- Patch Vulnerabilities: Update all web applications and server software to the latest versions to patch known vulnerabilities.
-- Implement Web Application Firewall (WAF): Deploy a WAF to protect against web-based attacks.
-- Enhanced Monitoring: Increase the monitoring of network traffic and logs for suspicious activity using advanced SIEM tools.
+  - Patch Vulnerabilities: Update all web applications and server software to the latest versions to patch known vulnerabilities.
+  - Implement Web Application Firewall (WAF): Deploy a WAF to protect against web-based attacks.
+  - Enhanced Monitoring: Increase the monitoring of network traffic and logs for suspicious activity using advanced SIEM tools.
 
 3. Long-term Strategies:
 
-- Employee Training: Conduct regular cybersecurity awareness training for employees.
-- Incident Response Plan: Develop and regularly update an incident response plan to quickly address future breaches.
-- Penetration Testing: Regularly perform penetration testing to identify and fix security weaknesses.
+  - Employee Training: Conduct regular cybersecurity awareness training for employees.
+  - Incident Response Plan: Develop and regularly update an incident response plan to quickly address future breaches.
+  - Penetration Testing: Regularly perform penetration testing to identify and fix security weaknesses.
 
 By following these steps, Wayne Enterprises can mitigate the impact of the current breach and strengthen its defenses against future cyber threats.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-On September 30, 2016, at the Wayne Enterprises' Security Operations Center(SOC), A memo from Gotham City Police Department (GCPD). Apparently GCPD has found evidence online (http://pastebin.com/Gw6dWjS9) that the website www.imreallynotbatman.com hosted on Wayne Enterprises' IP address space has been compromised. The group has multiple objectives... but a key aspect of their modus operandi is to deface websites in order to embarrass their victim. Lucius,the SOC lead, asked Vaughn to determine if www.imreallynotbatman.com. (the personal blog of Wayne Corporations CEO) was really compromised. Splunk Enterprise Security information and event management(SIEM) was used to invtigate. Found two suspicous IP addresses from malicious hacker group known as Po1s0n1vy. The 40.80.148.42 address performed a web vulnerablity sacn on imreallynotbatman site and the 23.22.63.114 address performed a brute force attack with one sucessful login attempt. This attack used dynamic DNS to resolve to the malicious IP 23.22.63.114. Prankglassinebracket.jumpingcrab.com is the fully qualified domain name (FQDN) that is associated with this attack. It was also found that a malicious executable was indeed downloaded to the "www.imreallynotbatman.com server." The malicious executable is know as 3791.exe. This virus exploits a backdoor and is associated with a process or an application running on system. Agent.php was also downloaded to the www.imreallynotbatman.com server and this download is commonly used in web development and server management. 
