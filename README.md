@@ -31,8 +31,11 @@ _index="botsv1" sourcetype="wineventlog*"  "we8105desk" "*address"_
 
 To find the alert signature_id that showed up the least amount of times I decided to use the stats count by command. This command will sort the signature_ids and count how many alerts were logged per ID.
 
- ![image](https://github.com/user-attachments/assets/318fd7b1-e923-4613-9986-045eb48d814c)
+index="botsv1" sourcetype="suricata"  "cerber" | stats count by  "alert.signature_id"
 
+![image](https://github.com/user-attachments/assets/318fd7b1-e923-4613-9986-045eb48d814c)
+
+3.
 
 4.
 
