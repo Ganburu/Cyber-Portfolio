@@ -19,9 +19,13 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
 ![image](https://github.com/user-attachments/assets/13365371-2e21-490b-a4f7-ccf8710f5f6c)
 
-1. What was the most likely IPv4 address of we8105desk on 24AUG2016?
+1. What was the most likely IPv4 address of we8105desk on 24AUG2016? **192.168.250.100**
 
-2.
+To find the IP Address I decided to look through windoweventlogs for an IP address pertaining to "we8105desk"
+
+_index="botsv1" sourcetype="wineventlog*"  "we8105desk" "*address"_
+
+   ![image](https://github.com/user-attachments/assets/7db9830d-6e0a-47a7-ace6-e6cbfe9932cb)
 
 3.
 
@@ -40,3 +44,7 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 10.
 
 11.
+
+12.
+
+13.
