@@ -35,7 +35,7 @@ index="botsv1" sourcetype="suricata"  "cerber" | stats count by  "alert.signatur
 
 ![image](https://github.com/user-attachments/assets/318fd7b1-e923-4613-9986-045eb48d814c)
 
-3.
+3. What fully qualified domain name (FQDN) does the Cerber ransomware attempt to direct the user to at the end of its encryption phase? 
 
 4.
 
