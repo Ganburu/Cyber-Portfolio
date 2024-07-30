@@ -33,7 +33,7 @@ To find the alert signature_id that showed up the least amount of times I decide
 
 index="botsv1" sourcetype="suricata"  "cerber" | stats count by  "alert.signature_id"
 
-![image](https://github.com/user-attachments/assets/318fd7b1-e923-4613-9986-045eb48d814c)
+![image](https://github.com/user-attachments/assets/57aa7f0e-4707-463f-9e31-30e3cee7e89e)
 
 3. What fully qualified domain name (FQDN) does the Cerber ransomware attempt to direct the user to at the end of its encryption phase? 
 
