@@ -35,10 +35,15 @@ index="botsv1" sourcetype="suricata"  "cerber" | stats count by  "alert.signatur
 
 ![image](https://github.com/user-attachments/assets/57aa7f0e-4707-463f-9e31-30e3cee7e89e)
 
-3. What fully qualified domain name (FQDN) does the Cerber ransomware attempt to direct the user to at the end of its encryption phase? 
+3. What fully qualified domain name (FQDN) does the Cerber ransomware attempt to direct the user to at the end of its encryption phase? **cerberhhyed5frqa.xmfir0.win**
 
-4.
+_index="botsv1" sourcetype="stream:dns" "192.168.250.100" "query_type{}"=A  | table _time "query{}"_
 
+I used the compromised client's IP address to look for DNS Queries that were not blocked. And had a time range set for queries within an half an hour before the last attack. I also made a table of the queries to normalize and sort the data.  _"cerberhhyed5frqa.xmfir0.win"_ stood out as odd while scrolling through the data.
+
+![image](https://github.com/user-attachments/assets/875af7a0-881a-4608-9895-bc5c3e2beac9)
+
+   
 5.
 
 6.
@@ -58,3 +63,5 @@ index="botsv1" sourcetype="suricata"  "cerber" | stats count by  "alert.signatur
 13.
 
 14.
+
+15.
