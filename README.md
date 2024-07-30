@@ -25,9 +25,9 @@ To find the IP Address I decided to look through windoweventlogs for an IP addre
 
 _index="botsv1" sourcetype="wineventlog*"  "we8105desk" "*address"_
 
-   ![image](https://github.com/user-attachments/assets/7db9830d-6e0a-47a7-ace6-e6cbfe9932cb)
+![image](https://github.com/user-attachments/assets/7db9830d-6e0a-47a7-ace6-e6cbfe9932cb)
 
-   2. Amongst the Suricata signatures that detected the Cerber malware, which one alerted the fewest number of times? Submit ONLY the signature ID value as the answer. **2816763**
+2. Amongst the Suricata signatures that detected the Cerber malware, which one alerted the fewest number of times? Submit ONLY the signature ID value as the answer. **2816763**
 
 To find the alert signature_id that showed up the least amount of times I decided to use the stats count by command. This command will sort the signature_ids and count how many alerts were logged per ID.
 
@@ -43,8 +43,12 @@ I used the compromised client's IP address to look for DNS Queries that were not
 
 ![image](https://github.com/user-attachments/assets/875af7a0-881a-4608-9895-bc5c3e2beac9)
 
-   
-5.
+4. What was the first suspicious domain visited by we8105desk on 24AUG2016?**solidaritedeproximite.org**
+
+I used the same query from number 3. Just clicked on the time field to change the order of the events.
+
+![image](https://github.com/user-attachments/assets/c5afaaa8-3813-43c9-a8f9-6249f0fda52e)
+
 
 6.
 
@@ -65,3 +69,5 @@ I used the compromised client's IP address to look for DNS Queries that were not
 14.
 
 15.
+
+16.
