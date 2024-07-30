@@ -27,7 +27,12 @@ _index="botsv1" sourcetype="wineventlog*"  "we8105desk" "*address"_
 
    ![image](https://github.com/user-attachments/assets/7db9830d-6e0a-47a7-ace6-e6cbfe9932cb)
 
-3.
+   2. Amongst the Suricata signatures that detected the Cerber malware, which one alerted the fewest number of times? Submit ONLY the signature ID value as the answer. **2816763**
+
+To find the alert signature_id that showed up the least amount of times I decided to use the stats count by command. This command will sort the signature_ids and count how many alerts were logged per ID.
+
+ ![image](https://github.com/user-attachments/assets/318fd7b1-e923-4613-9986-045eb48d814c)
+
 
 4.
 
@@ -48,3 +53,5 @@ _index="botsv1" sourcetype="wineventlog*"  "we8105desk" "*address"_
 12.
 
 13.
+
+14.
