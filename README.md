@@ -45,12 +45,21 @@ I used the compromised client's IP address to look for DNS Queries that were not
 
 4. What was the first suspicious domain visited by we8105desk on 24AUG2016?**solidaritedeproximite.org**
 
-I used the same query from number 3. Just clicked on the time field to change the order of the events.
+I used the same query from number 3. I Just clicked on the time field to change the order of the events.
 
 ![image](https://github.com/user-attachments/assets/c5afaaa8-3813-43c9-a8f9-6249f0fda52e)
 
 
-6.
+5. During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?
+
+
+6. What is the name of the USB key inserted by Bob Smith?**MIRANDA_PRI**
+
+I read on google that a usb insertion is a windows registry event, doing further research I found out that I needed to know the key path that it would most likely be logged to. I found out the key path using google search and added that key path to my search in splunk along with the winregistry sourcetype.
+
+index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\windows portable devices\\devices\\*"
+
+![image](https://github.com/user-attachments/assets/4afb6317-9c50-46fc-b5be-499f8927d7e1)
 
 7.
 
@@ -62,12 +71,3 @@ I used the same query from number 3. Just clicked on the time field to change th
 
 11.
 
-12.
-
-13.
-
-14.
-
-15.
-
-16.
