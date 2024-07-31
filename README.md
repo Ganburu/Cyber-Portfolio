@@ -61,7 +61,7 @@ index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\win
 
 ![image](https://github.com/user-attachments/assets/4afb6317-9c50-46fc-b5be-499f8927d7e1)
 
-7.
+7. Bob Smith's workstation (we8105desk) was connected to a file server during the ransomware outbreak. What is the IPv4 address of the file server?
 
 8.
 
