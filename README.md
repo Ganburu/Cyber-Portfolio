@@ -50,7 +50,12 @@ I used the same query from number 3. I Just clicked on the time field to change 
 ![image](https://github.com/user-attachments/assets/c5afaaa8-3813-43c9-a8f9-6249f0fda52e)
 
 
-5. During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?
+5. During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?**4490**
+
+Since the compromised host is using windows and it was a Visual Basic script that was ran on the system, I asked splunk to search for the "we8105desk" host, anything pertaing to ".exe", and event code 1 pertaining to new processes from the "XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" sourcetype. And evaluated the length of the script using the eval command then made a table showing the length of the script, finally sorting the table by length. 
+
+![image](https://github.com/user-attachments/assets/4c7c9657-fc07-48a4-9e33-d06d108b8c37)
+
 
 
 6. What is the name of the USB key inserted by Bob Smith?**MIRANDA_PRI**
