@@ -67,7 +67,7 @@ index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\win
 
 7. Bob Smith's workstation (we8105desk) was connected to a file server during the ransomware outbreak. What is the IPv4 address of the file server? **192.168.250.20**
 
-Search for SMB (Windows file sharing protocol) traffic from the infected device on the date in question. The "stats" SPL command can be used to count the most common destination IP for the SMB protocol.
+I searched filesharing traffic from the infected device on the date in question, and used the "stats" SPL command to count the most common destination IP for the filesharing.
 
 ![image](https://github.com/user-attachments/assets/c42447ba-1590-4f98-871b-6e876ac4b094)
 
