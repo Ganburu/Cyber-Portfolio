@@ -96,7 +96,14 @@ _index="botsv1" sourcetype=* host="we8105desk"  121214.tmp ParentProcessId_
 
 ![image](https://github.com/user-attachments/assets/fcc421a5-a8f1-46f0-b265-6920619e0cc7)
 
-11.
+11. The malware downloads a file that contains the Cerber ransomware cryptor code. What is the name of that file?**mhtr.jpg**
 
-12.
+Since I was looking for potentially malicious file, I started my search with Suricata data and then narrowed down my search by focusing on the attacker remote file sharing IP.
+
+![image](https://github.com/user-attachments/assets/fbd1c987-45d4-4498-9da6-39b9e22a78d7)
+
+12. Now that you know the name of the ransomware's encryptor file, what obfuscation technique does it likely use?**Steganography**
+
+The practice of hiding information within another message or physical object to evade detection
+
 
