@@ -98,6 +98,8 @@ _index="botsv1" sourcetype=* host="we8105desk"  121214.tmp ParentProcessId_
 
 11. The malware downloads a file that contains the Cerber ransomware cryptor code. What is the name of that file?**mhtr.jpg**
 
+_index="botsv1" sourcetype="stream:http"  src="192.168.250.100" | stats count values(url) by dest_
+
 Since I was looking for potentially malicious file, I started my search with Suricata data and then narrowed down my search by focusing on the attacker remote file sharing IP.
 
 ![image](https://github.com/user-attachments/assets/fbd1c987-45d4-4498-9da6-39b9e22a78d7)
