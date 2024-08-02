@@ -71,8 +71,13 @@ _index="botsv1" sourcetype="winregistry"  host="we8105desk" fileshare | stats co
 
 ![image](https://github.com/user-attachments/assets/c42447ba-1590-4f98-871b-6e876ac4b094)
 
-8. How many distinct PDFs did the ransomware encrypt on the remote file server?
+8. How many distinct PDFs did the ransomware encrypt on the remote file server?**257**
 
+This one was simple. I just commanded splunk to look through all the windows logs for pdfs pertaing to the infected computer's IP address.  
+
+_index="botsv1" sourcetype="WinEventLog:*"   192.168.250.100 pdf | dedup Relative_Target_Name_
+
+![image](https://github.com/user-attachments/assets/38478a1b-64b8-478d-ba6e-7ccc69b4b258)
 
 
 
