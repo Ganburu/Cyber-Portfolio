@@ -73,13 +73,11 @@ _index="botsv1" sourcetype="winregistry"  host="we8105desk" fileshare | stats co
 
 8. How many distinct PDFs did the ransomware encrypt on the remote file server?**257**
 
-This one was simple. I just commanded splunk to look through all the windows logs for pdfs pertaing to the infected computer's IP address.  
+This one was simple. I just commanded splunk to look through all the windows event logs for pdfs pertaing to the infected computer's IP address. I also used the SPL command Dedup to only show the same type of log once.  
 
 _index="botsv1" sourcetype="WinEventLog:*"   192.168.250.100 pdf | dedup Relative_Target_Name_
 
 ![image](https://github.com/user-attachments/assets/38478a1b-64b8-478d-ba6e-7ccc69b4b258)
-
-
 
 
 9. The Cerber ransomware encrypts files located in Bob Smith's Windows profile. How many .txt files does it encrypt?**406**
@@ -90,7 +88,13 @@ _index="botsv1" sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
 
 ![image](https://github.com/user-attachments/assets/5a3f6686-38d3-4e80-a080-092343e57b98)
 
-10.
+10. The VBscript found in question 204 launches 121214.tmp. What is the ParentProcessId of this initial launch?**3968**
+
+I added the .tmp file and ParentProcessId_ to my search and Splunk showed me 7 events. I looked for the first event that happened and checked out the logs. 
+
+_index="botsv1" sourcetype=* host="we8105desk"  121214.tmp ParentProcessId_
+
+![image](https://github.com/user-attachments/assets/fcc421a5-a8f1-46f0-b265-6920619e0cc7)
 
 11.
 
