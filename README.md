@@ -49,19 +49,17 @@ I used the same query from number 3. I Just clicked on the time field to change 
 
 ![image](https://github.com/user-attachments/assets/c5afaaa8-3813-43c9-a8f9-6249f0fda52e)
 
-
 5. During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?**4490**
 
 Since the compromised host is using windows and it was a Visual Basic script that was ran on the system, I asked splunk to search for the "we8105desk" host, anything pertaing to ".exe", and event code 1 pertaining to new processes from the "XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" sourcetype. And evaluated the length of the script using the eval command then made a table showing the length of the script, finally sorting the table by length. 
 
 ![image](https://github.com/user-attachments/assets/4c7c9657-fc07-48a4-9e33-d06d108b8c37)
 
-
 6. What is the name of the USB key inserted by Bob Smith?**MIRANDA_PRI**
 
 I read on google that a usb insertion is a windows registry event, doing further research I found out that I needed to know the key path that it would most likely be logged to. I found out the key path using google search and added that key path to my search in splunk along with the winregistry sourcetype.
 
-index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\windows portable devices\\devices\\*"
+_index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\windows portable devices\\devices\\*"_
 
 ![image](https://github.com/user-attachments/assets/4afb6317-9c50-46fc-b5be-499f8927d7e1)
 
@@ -69,14 +67,27 @@ index="botsv1" sourcetype="winregistry" key_path="HKLM\\software\\microsoft\\win
 
 I searched filesharing traffic from the infected device on the date in question, and used the "stats" SPL command to count the most common destination IP for the filesharing.
 
+_index="botsv1" sourcetype="winregistry"  host="we8105desk" fileshare | stats count by object_
+
 ![image](https://github.com/user-attachments/assets/c42447ba-1590-4f98-871b-6e876ac4b094)
 
+8. How many distinct PDFs did the ransomware encrypt on the remote file server?
 
-8.
 
-9.
+
+
+
+9. The Cerber ransomware encrypts files located in Bob Smith's Windows profile. How many .txt files does it encrypt?**406**
+
+In Sysmon events, EventCode=2 indicates file creation time has changed. So I look at the logs from the _"XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"_ sourcetype and attached the hostname, event code and the C user path, which is Bob smith, then I just used the stats command to tally up the amount of times this event occured. 
+
+_index="botsv1" sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"  host="we8105desk"  EventCode=2 TargetFilename="C:\\Users\\bob.smith.WAYNECORPINC\\*.txt" | stats dc(TargetFilename)_
+
+![image](https://github.com/user-attachments/assets/5a3f6686-38d3-4e80-a080-092343e57b98)
 
 10.
 
 11.
+
+12.
 
