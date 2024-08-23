@@ -30,7 +30,17 @@ Copy Windows.exe
 
 ![image](https://github.com/user-attachments/assets/37390144-2876-494d-8cfb-f3a21efb5e8c)
 
-Open Powershell as Administrator. 
+Open Powershell as Administrator. cd to downloads. Paste windows.exe. Space Put -i put another space, then paste sensory key right after. Press enter 
+
+![image](https://github.com/user-attachments/assets/e295689e-a106-4603-9ad1-d809be5a1294)
+
+Checked Windows services to see if was running successfully. 
+
+![image](https://github.com/user-attachments/assets/07898386-8ef4-467a-b490-64ec2f09c921)
+
+
+
+
 
 
 
