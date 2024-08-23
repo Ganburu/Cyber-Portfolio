@@ -22,3 +22,15 @@ Download Windows EDR.
 
 ![image](https://github.com/user-attachments/assets/18e4f8a2-a8d8-4e06-bc28-d23729ef3c6f)
 
+Copy Sensor key
+
+![image](https://github.com/user-attachments/assets/5f3e4802-755d-4a34-a4da-3badb65be918)
+
+Copy Windows.exe
+
+![image](https://github.com/user-attachments/assets/37390144-2876-494d-8cfb-f3a21efb5e8c)
+
+Open Powershell as Administrator. 
+
+
+
