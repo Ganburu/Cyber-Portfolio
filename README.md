@@ -1,6 +1,6 @@
 This Lab is from https://www.youtube.com/watch?v=WPyJR7Y3qb4 (MyDFIR)
 
-Roughdraft of network setup. 
+Roughdraft of SOAR setup. 
 
 ![image](https://github.com/user-attachments/assets/b8aef411-f11e-4e2a-a4c7-2496ba2f1099)
 
