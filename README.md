@@ -38,6 +38,21 @@ Checked Windows services to see if was running successfully.
 
 ![image](https://github.com/user-attachments/assets/07898386-8ef4-467a-b490-64ec2f09c921)
 
+## Generate telementry Detection and response
+
+Went to laZange github to get lattest release of the LaZagne.exe
+
+Side note: *Windows security should be diabled*
+
+![image](https://github.com/user-attachments/assets/3cac89da-d4eb-4b65-99cf-254bc57efa05)
+
+It Worked.
+
+![image](https://github.com/user-attachments/assets/3c4fbf07-4e05-4825-960a-c629b7ee3a6c)
+
+Lima Charlie also picked up these events.
+
+
 
 
 
