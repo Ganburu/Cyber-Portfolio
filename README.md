@@ -56,9 +56,14 @@ Lima Charlie also picked up these events.
 
 Create Detection & Response rules (D&R) rules via automation in Lima Charlie.
 
-Detection Rule
+Detection Rules
 
 ![image](https://github.com/user-attachments/assets/dc3f4747-2cd3-46ce-ada4-d634ae89770c)
+
+Response Rules
+
+![image](https://github.com/user-attachments/assets/c25ae3f9-c81f-403f-98b2-613229f59a42)
+
 
 
 
