@@ -64,9 +64,24 @@ Response Rules
 
 ![image](https://github.com/user-attachments/assets/c25ae3f9-c81f-403f-98b2-613229f59a42)
 
+Test Rule
+After saving rule, scrolled down and clicked on target event. Copied lazagne event from timeline 
 
+![image](https://github.com/user-attachments/assets/8961cff0-b753-43d7-9968-17e9dc0e8a7e)
 
+Paste Here and test event.
 
+![image](https://github.com/user-attachments/assets/73000c27-9939-40ff-ae83-2bf144c88ef5)
+
+The Event was a success.
+
+![image](https://github.com/user-attachments/assets/05c2d4f0-744d-4b76-ab57-2d3ce1648529)
+
+Side note: *Rules do not have to be made from scratch. Lima Charlie has many predefined D&Rs. These rules can also be modified to meet your EDR standards.*
+
+Ran lazagne.exe in powershell and lima charlie detected the events.
+
+![image](https://github.com/user-attachments/assets/623fd6a6-af7b-4e1c-be85-a929945dc957)
 
 
 
