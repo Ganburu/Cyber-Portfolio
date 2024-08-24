@@ -40,7 +40,7 @@ Checked Windows services to see if was running successfully.
 
 ## Generate telementry Detection and response
 
-Went to laZange github to get lattest release of the LaZagne.exe
+Went to laZange github to get latest release of the LaZagne.exe
 
 Side note: *Windows security should be diabled*
 
