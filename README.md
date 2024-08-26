@@ -83,6 +83,8 @@ Ran lazagne.exe in powershell and lima charlie detected the events.
 
 ![image](https://github.com/user-attachments/assets/623fd6a6-af7b-4e1c-be85-a929945dc957)
 
+## Tines & Slack
+
 Created a Slack account and added a channel named alerts to get Tines alerts sent to Slack.
 
 ![image](https://github.com/user-attachments/assets/61cdea34-3b3a-4ded-8dd1-92c3bcf0da46)
