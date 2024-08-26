@@ -1,16 +1,16 @@
 This Lab is from https://www.youtube.com/watch?v=WPyJR7Y3qb4 (MyDFIR)
 
-Roughdraft of SOAR setup. 
+## Roughdraft of SOAR setup. 
 
 ![image](https://github.com/user-attachments/assets/b8aef411-f11e-4e2a-a4c7-2496ba2f1099)
 
-Playbook workflow.
+## Playbook workflow.
 
 ![image](https://github.com/user-attachments/assets/415c758c-a485-4be2-b79c-85d06caf76c6)
 
 ![image](https://github.com/user-attachments/assets/ece990d1-4903-44d5-bd27-4688d4c3318f)
 
-Install and setup Lima Charlie
+## Install and setup Lima Charlie
 
 Create Installation Key
 
@@ -30,7 +30,7 @@ Copy Windows.exe
 
 ![image](https://github.com/user-attachments/assets/37390144-2876-494d-8cfb-f3a21efb5e8c)
 
-Open Powershell as Administrator. cd to downloads. Paste windows.exe. Space Put -i put another space, then paste sensory key right after. Press enter 
+Open Powershell as Administrator, cd to downloads, paste windows.exe, space Put -i put another space, then paste sensory key right after. Press enter 
 
 ![image](https://github.com/user-attachments/assets/e295689e-a106-4603-9ad1-d809be5a1294)
 
