@@ -83,6 +83,18 @@ Ran lazagne.exe in powershell and lima charlie detected the events.
 
 ![image](https://github.com/user-attachments/assets/623fd6a6-af7b-4e1c-be85-a929945dc957)
 
+Created a Slack account and added a channel named alerts to get Tines alerts sent to Slack.
+
+![image](https://github.com/user-attachments/assets/61cdea34-3b3a-4ded-8dd1-92c3bcf0da46)
+
+Went to tines.com and created a account so Lima Charlie detections can be sent to Tines. Once in Tines I deleted all tools and added the webhook tool to the story.
+
+![image](https://github.com/user-attachments/assets/07eafbdc-278b-48cf-89ef-00fa5709c8a0)
+
+Back to Lima charlie to connect Tines.
+
+
+
 
 
 
