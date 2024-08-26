@@ -87,11 +87,42 @@ Created a Slack account and added a channel named alerts to get Tines alerts sen
 
 ![image](https://github.com/user-attachments/assets/61cdea34-3b3a-4ded-8dd1-92c3bcf0da46)
 
-Went to tines.com and created a account so Lima Charlie detections can be sent to Tines. Once in Tines I deleted all tools and added the webhook tool to the story.
+Went to tines.com and created a account so Lima Charlie detections can be sent to Tines. Once in Tines I deleted all tools, added the webhook tool to the story and copied the web hook url for use in Lima Charlie later.
 
-![image](https://github.com/user-attachments/assets/07eafbdc-278b-48cf-89ef-00fa5709c8a0)
+![image](https://github.com/user-attachments/assets/5dbcba25-7911-48a7-b1a8-326f553a32ef)
 
-Back to Lima charlie to connect Tines.
+
+Back to Lima Charlie to connect Tines. Selected outputs. 
+
+![image](https://github.com/user-attachments/assets/8e1d11dd-3e23-4545-9aac-12964da8861d)
+
+Select detections.
+
+![image](https://github.com/user-attachments/assets/047e5c22-b225-4cd5-a482-c4705691236d)
+
+Select Tines, named it and pasted the webhook url from my Tines account. Selected save output.
+
+![image](https://github.com/user-attachments/assets/1be23b34-f4d5-449c-bc5f-898953e07460)
+
+Ran Lazagne.exe in powershell to get a detection. 
+
+![image](https://github.com/user-attachments/assets/1b302d39-aa66-4b6d-8122-d2d8ab3f43ae)
+
+Now to head over to tines to check output. It Worked! 
+
+![image](https://github.com/user-attachments/assets/da3f6121-0f81-4d72-8409-7d83e692877b)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
