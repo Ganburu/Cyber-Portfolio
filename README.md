@@ -115,6 +115,27 @@ Now to head over to tines to check output. It Worked!
 ![image](https://github.com/user-attachments/assets/da3f6121-0f81-4d72-8409-7d83e692877b)
 
 
+Back to slack
+
+Added the Tines app to slack through the automations option.
+
+![image](https://github.com/user-attachments/assets/bfe2fd46-564e-4513-bc9f-59b0e93ecc8b)
+
+Added the Slack Api to Tines via crendentials.
+
+![image](https://github.com/user-attachments/assets/9a364537-3565-4887-82f8-514b00b2ac16)
+
+Back in slack. Copied channel_ID to paste in tines.
+
+![image](https://github.com/user-attachments/assets/edd73ca0-5af0-4900-83ac-80823bbc083a)
+
+Added Slack to my story in Tines and pasted my Slack Channel ID in Channel/UserID section.
+
+![image](https://github.com/user-attachments/assets/ae73903c-03b0-4ba6-b3c9-9ecb7effb55a)
+
+Sent a message from Tines to Slack and it worked!
+
+![image](https://github.com/user-attachments/assets/73283589-b588-4610-b013-7d41b8dbc7ad)
 
 
 
