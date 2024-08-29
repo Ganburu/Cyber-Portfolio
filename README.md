@@ -160,7 +160,30 @@ Edited the new page in Tines.
 
 Will be using these fields copied from Tines in a few.
 
-![image](https://github.com/user-attachments/assets/841df1e3-cae4-40d9-8a40-378d5480737a)
+![image](https://github.com/user-attachments/assets/0636a1af-2145-46b3-b455-ea6f59b17546)
+
+Pasted the fields into Slack API in Tines.
+
+![image](https://github.com/user-attachments/assets/7230a80e-6bba-4cfb-a813-af24d8044450)
+
+Time to test the Slack API in Tines. 
+
+Switch over to Slack. It worked.
+
+![image](https://github.com/user-attachments/assets/82bf86dd-a943-4511-9418-58edc497ca60)
+
+I put the same credentials into the email API and now to test email API. 
+
+It worked.
+
+![image](https://github.com/user-attachments/assets/35f4b37f-01ea-42fb-8639-c714ede0461a)
+
+Going back to the User prompt in Tines.
+
+
+
+
+
 
 
 
