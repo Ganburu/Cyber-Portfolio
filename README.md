@@ -180,6 +180,21 @@ It worked.
 
 Going back to the User prompt in Tines.
 
+Pasted same credentials that was used for Slack ans email API into the User prompt.
+
+![image](https://github.com/user-attachments/assets/8a4c1e48-dec0-44ee-9656-636f5e360e23)
+
+Added a trigger action to my Tines story. And another Slack instance for trigger messages. 
+
+![image](https://github.com/user-attachments/assets/90be9efa-692a-41b8-9cc6-b07a1cafb617)
+
+The trigger tool and Slack instance has been edited. Now time to test.
+
+![image](https://github.com/user-attachments/assets/6b9cedab-64ea-483a-a1d1-d6baa1eb497c)
+
+It works.
+
+
 
 
 
