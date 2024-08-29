@@ -150,10 +150,17 @@ Time to test. It worked.
 
 ### USER PROMPT
 
-Added new page to my story in tines from tools option.
+Added new page to my story in Tines from tools option.
 
 ![image](https://github.com/user-attachments/assets/a6220033-aa8d-4841-a0e7-4105e3b26eb0)
 
+Edited the new page in Tines.
+
+![image](https://github.com/user-attachments/assets/318eca70-fb22-4ae2-a614-d1dd62f98569)
+
+Will be using these fields copied from Tines in a few.
+
+![image](https://github.com/user-attachments/assets/841df1e3-cae4-40d9-8a40-378d5480737a)
 
 
 
