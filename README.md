@@ -137,6 +137,19 @@ Sent a message from Tines to Slack and it worked!
 
 ![image](https://github.com/user-attachments/assets/73283589-b588-4610-b013-7d41b8dbc7ad)
 
+Back in Tines. Added send email to my story. Made an account on public.sqrx.com to get a disposable email. Copied the disposable email. Pasted it in Reciepients section under list in Tines.
+
+![image](https://github.com/user-attachments/assets/be94bd18-a38f-4f73-807c-6c41d90d9ff9)
+
+
+![image](https://github.com/user-attachments/assets/f28703c3-6b61-4472-a92a-52a9fe38c494)
+
+Time to test. It worked.
+
+![image](https://github.com/user-attachments/assets/53ea1333-0c6c-4bcd-946a-0c45bf70f584)
+
+### USER PROMPT
+
 
 
 
