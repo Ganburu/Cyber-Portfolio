@@ -150,6 +150,11 @@ Time to test. It worked.
 
 ### USER PROMPT
 
+Added new page to my story in tines from tools option.
+
+![image](https://github.com/user-attachments/assets/a6220033-aa8d-4841-a0e7-4105e3b26eb0)
+
+
 
 
 
