@@ -150,11 +150,11 @@ Time to test. It worked.
 
 ### USER PROMPT
 
-Added new page to my story in Tines from tools option.
+Added new page to my story in Tines from tools option. This will be the user prompt.
 
 ![image](https://github.com/user-attachments/assets/a6220033-aa8d-4841-a0e7-4105e3b26eb0)
 
-Edited the new page in Tines.
+Edited the new user prompt page in Tines.
 
 ![image](https://github.com/user-attachments/assets/318eca70-fb22-4ae2-a614-d1dd62f98569)
 
@@ -216,7 +216,7 @@ Here is a before shot of the non isolated computer in Lima Charlie and the compu
 
 ![image](https://github.com/user-attachments/assets/7583c2c6-19d0-42e0-bf7d-2fe88168ac90)
 
-Ran lazagne.exe and a selected Yes to isolate the machine.
+Ran lazagne.exe and a selected Yes in the user prompt to isolate the machine.
 
 ![image](https://github.com/user-attachments/assets/87022d40-f4ef-49ff-8a24-f599440de243)
 
