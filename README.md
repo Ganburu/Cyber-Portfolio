@@ -220,7 +220,6 @@ Ran lazagne.exe and a selected Yes in the user prompt to isolate the machine.
 
 ![image](https://github.com/user-attachments/assets/87022d40-f4ef-49ff-8a24-f599440de243)
 
- 
 It Worked!
 
 Cool the computer is now isolated.
@@ -229,6 +228,13 @@ Cool the computer is now isolated.
 
 ![image](https://github.com/user-attachments/assets/36fc0f3f-fc7e-4ccb-bd07-d93f56028b5f)
 
+Now to add the final Slack instance to the Tines story. 
+
+Its has been edited in the same manner as the previous Slack instances with minor cahnges. 
+
+Ran another test. and here is the isolated Slack message.
+
+![image](https://github.com/user-attachments/assets/2b25fc6d-0f6c-4479-9110-4d817c12b5f5)
 
 
 
