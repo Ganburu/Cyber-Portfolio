@@ -223,6 +223,10 @@ Ran lazagne.exe and a selected Yes to isolate the machine.
  
 It Worked!
 
+Cool the computer is now isolated.
+
+![image](https://github.com/user-attachments/assets/fe05938a-fb1e-4c2e-96a4-be880a22afa8)
+
 ![image](https://github.com/user-attachments/assets/36fc0f3f-fc7e-4ccb-bd07-d93f56028b5f)
 
 
