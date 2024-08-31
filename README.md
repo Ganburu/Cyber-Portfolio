@@ -210,10 +210,17 @@ In Tines selected add new crendential and updated the Lima Charlie crendentials.
 
 Time run test in Tines for yes trigger.
 
-Here is a before shot of the non isolated computer in Lima Charlie.
+Here is a before shot of the non isolated computer in Lima Charlie and the computer command prompt.
 
 ![image](https://github.com/user-attachments/assets/c919ad59-9296-4176-83bf-ca9f707b21d9)
 
+![image](https://github.com/user-attachments/assets/7583c2c6-19d0-42e0-bf7d-2fe88168ac90)
+
+Ran lazagne.exe and a selected Yes to isolate the machine.
+
+![image](https://github.com/user-attachments/assets/87022d40-f4ef-49ff-8a24-f599440de243)
+
+ 
 It Worked!
 
 ![image](https://github.com/user-attachments/assets/36fc0f3f-fc7e-4ccb-bd07-d93f56028b5f)
