@@ -240,9 +240,9 @@ Here is the final layout of the project.
 
 ![image](https://github.com/user-attachments/assets/22198675-36b1-4ae2-91cd-b4a9ad2507f7)
 
-This is the end of the project.
-
 When Lima Charlie detects a potential threat, an email and a Slack message gets sent to the necessary person. Based on the message, the person can decipher  whether to isolate the computer or not. If the person decides to isolate the computer he/she will have to click on the link. This link will lead them to the user prompt. When Yes is clicked, Lima Charlie will automatically isolate the computer from the network. Another Slack message confirming the isolation will be sent once Lima Charlie has isolated the computer successfully. If the user selects no at the user prompt then the computer will not be isolated and the user will get a Slack message saying "the computer was not isolated, please investigate."     
+
+### This is the End 끝
 
 
 
