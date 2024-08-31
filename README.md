@@ -216,7 +216,8 @@ Here is a before shot of the non isolated computer in Lima Charlie.
 
 It Worked!
 
-![image](https://github.com/user-attachments/assets/8ceb1b8c-900e-42cd-bad9-7d652dbea614)
+![image](https://github.com/user-attachments/assets/36fc0f3f-fc7e-4ccb-bd07-d93f56028b5f)
+
 
 
 
