@@ -194,6 +194,29 @@ The trigger tool and Slack instance has been edited. Now time to test.
 
 It works.
 
+Next, added a yes trigger action I edited it in the same manner as the previous "No" trigger action with minor differences. 
+
+![image](https://github.com/user-attachments/assets/e34b6b78-ab19-4092-bc3e-07e08418cd49)
+
+I also had to connect another Lima Charlie instance with API Crendentials. Went to access management in Lima Charlie to get the API crendentials so that I could update my Tines story.
+
+Here is the crenditals I will be using in Tines from Lima Charlie.
+
+![image](https://github.com/user-attachments/assets/1e09aa80-8cb7-428a-8222-d5798275a47d)
+
+In Tines selected add new crendential and updated the Lima Charlie crendentials.
+
+![image](https://github.com/user-attachments/assets/c09c5118-540f-4570-81a8-c1563aef245d)
+
+Time run test in Tines for yes trigger.
+
+Here is a before shot of the non isolated computer in Lima Charlie.
+
+![image](https://github.com/user-attachments/assets/c919ad59-9296-4176-83bf-ca9f707b21d9)
+
+It Worked!
+
+![image](https://github.com/user-attachments/assets/8ceb1b8c-900e-42cd-bad9-7d652dbea614)
 
 
 
