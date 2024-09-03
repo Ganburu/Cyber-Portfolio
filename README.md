@@ -34,7 +34,7 @@ Open Powershell as Administrator, cd to downloads, paste windows.exe, space Put 
 
 ![image](https://github.com/user-attachments/assets/e295689e-a106-4603-9ad1-d809be5a1294)
 
-Checked Windows services to see if was running successfully. 
+Checked Windows services to see if it was running successfully. 
 
 ![image](https://github.com/user-attachments/assets/07898386-8ef4-467a-b490-64ec2f09c921)
 
