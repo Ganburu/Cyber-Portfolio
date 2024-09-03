@@ -46,6 +46,8 @@ Side note: *Windows security should be diabled*
 
 ![image](https://github.com/user-attachments/assets/3cac89da-d4eb-4b65-99cf-254bc57efa05)
 
+Ran lazagne in the command prompt.
+
 It Worked.
 
 ![image](https://github.com/user-attachments/assets/3c4fbf07-4e05-4825-960a-c629b7ee3a6c)
