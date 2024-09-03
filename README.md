@@ -139,7 +139,7 @@ Sent a message from Tines to Slack and it worked!
 
 ![image](https://github.com/user-attachments/assets/73283589-b588-4610-b013-7d41b8dbc7ad)
 
-Back in Tines. Added send email to my story. Made an account on public.sqrx.com to get a disposable email. Copied the disposable email. Pasted it in Reciepients section under list in Tines.
+Back in Tines. Added send email to my story. Made an account on public.sqrx.com to get a disposable email. Copied the disposable email. Pasted it in Reciepients section under "reply to" in Tines.
 
 ![image](https://github.com/user-attachments/assets/be94bd18-a38f-4f73-807c-6c41d90d9ff9)
 
