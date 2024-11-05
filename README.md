@@ -3,4 +3,5 @@ In this project, I will show the steps of setting up an Active Directory (home l
 
 Here is a diagram of the network setup from app.diagrams.net that I made.
 
-![image](https://github.com/user-attachments/assets/100b53a4-0e19-458c-b6fc-897b8e3f6d9d)
+![image](https://github.com/user-attachments/assets/8018ec8f-716d-413f-be4c-34c0df14e771)
+
