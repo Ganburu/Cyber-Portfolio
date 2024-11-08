@@ -5,7 +5,7 @@ Here is a diagram of the network setup from app.diagrams.net that I made.
 
 ![image](https://github.com/user-attachments/assets/8018ec8f-716d-413f-be4c-34c0df14e771)
 
-Set up Windows 10 taeget computer, kali linux(the attacker), Windows server and Splunk Server on Virtualbox.
+Set up Windows 10 target computer, kali linux(the attacker), Windows server and Splunk Server on Virtualbox.
 
 ![image](https://github.com/user-attachments/assets/5e3e3706-9180-480b-82ce-62c27a2d92b9)
 
