@@ -7,5 +7,6 @@ Here is a diagram of the network setup from app.diagrams.net that I made.
 
 Set up Windows 10 user computer and kali linux (the attacker) on Virtualbox.
 
-![image](https://github.com/user-attachments/assets/fd0df732-a43f-48a1-8733-f9461540dead)
+![image](https://github.com/user-attachments/assets/5e3e3706-9180-480b-82ce-62c27a2d92b9)
+
 
