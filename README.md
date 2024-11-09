@@ -9,4 +9,9 @@ Set up Windows 10 target computer, kali linux(the attacker), Windows server and 
 
 ![image](https://github.com/user-attachments/assets/5e3e3706-9180-480b-82ce-62c27a2d92b9)
 
+Configure a new Nat network on virtual box so that the Windows computer, Windows server, and Splunk server are on the same network.
+
+![image](https://github.com/user-attachments/assets/f51f7552-806a-4d50-bec0-cd9650bdab92)
+
+
 
