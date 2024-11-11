@@ -35,9 +35,10 @@ After guest add-on, I allocated a folder that this server could save files to vi
 
 ![image](https://github.com/user-attachments/assets/7243eb8a-eb7e-4776-aa04-35d35aed8fe2)
 
-Now to add a user.
+Now to add a user and make new directory called "share".
 
-![image](https://github.com/user-attachments/assets/3d28788b-4087-4b6b-b54f-ca17280c2c3b)
+![image](https://github.com/user-attachments/assets/60996fa7-0113-4822-86d9-59359331908d)
+
 
 
 
