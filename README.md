@@ -25,6 +25,20 @@ Now to download Splunk Enterprise for Linux from splunk.com.
 
 ![image](https://github.com/user-attachments/assets/9a18e0e9-dac9-4b2e-8487-117751cb2ba0)
 
+Back to virtual Splunk server to install virtual guest add-ons.
+
+![image](https://github.com/user-attachments/assets/4c04ff1b-0621-4d05-900e-825e790e3be3)
+
+After guest add-on, I allocated a folder that this server could save files to via devices and shared folder options on the splunk virtual machine.
+
+![image](https://github.com/user-attachments/assets/a8ccd8c9-b90d-470d-8b04-1e4cbcfdb798)
+
+![image](https://github.com/user-attachments/assets/7243eb8a-eb7e-4776-aa04-35d35aed8fe2)
+
+
+
+
+
 
 
 
