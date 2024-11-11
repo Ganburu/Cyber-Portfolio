@@ -39,6 +39,11 @@ Now to add a user and make new directory called "share".
 
 ![image](https://github.com/user-attachments/assets/60996fa7-0113-4822-86d9-59359331908d)
 
+Run command to mount shared folder on to the directory share.
+
+![image](https://github.com/user-attachments/assets/2c0d62d8-ab1e-499d-8539-1b7e23f7fece)
+
+
 
 
 
