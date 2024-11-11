@@ -15,7 +15,7 @@ Configure a new Nat network on virtual box so that the Windows computer, Windows
 
 Now to set up Splunk server. On the Splunk server I navigated to the installer-config. I edited the settings, which shows in the snap shot below.
 
-![image](https://github.com/user-attachments/assets/d5379298-0975-488d-8d3a-f3fdb5a0b03e)
+![image](https://github.com/user-attachments/assets/d5768229-0809-43b5-80b6-062e7a771732)
 
 
 
