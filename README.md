@@ -17,7 +17,7 @@ Now to set up Splunk server. On the Splunk server I navigated to the installer-c
 
 ![image](https://github.com/user-attachments/assets/d5768229-0809-43b5-80b6-062e7a771732)
 
-Applied changes and checked to see if IP addresse is correct. Cool and it is.
+Applied changes and checked to see if IP address is correct. Cool and it is.
 
 ![image](https://github.com/user-attachments/assets/ac6ca9a4-0417-4f43-aab4-321718c63886)
 
