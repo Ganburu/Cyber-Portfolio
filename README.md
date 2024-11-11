@@ -21,6 +21,12 @@ Applied changes and checked to see if IP address is correct. Cool and it is.
 
 ![image](https://github.com/user-attachments/assets/ac6ca9a4-0417-4f43-aab4-321718c63886)
 
+Now to download Splunk Enterprise for Linux from splunk.com.
+
+![image](https://github.com/user-attachments/assets/9a18e0e9-dac9-4b2e-8487-117751cb2ba0)
+
+
+
 
 
 
