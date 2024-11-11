@@ -47,6 +47,11 @@ Now to Install Splunk enterprise on the Splunk server.
 
 ![image](https://github.com/user-attachments/assets/29b10271-e945-407b-a9c0-64ef7b1ad77a)
 
+![image](https://github.com/user-attachments/assets/f778acce-27f8-43b2-9816-6dab5f4bf71f)
+
+![image](https://github.com/user-attachments/assets/350da1e9-958d-4946-8058-134c3df3dcda)
+
+
 
 
 
