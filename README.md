@@ -43,6 +43,11 @@ Run command to mount shared folder on to the directory share.
 
 ![image](https://github.com/user-attachments/assets/2c0d62d8-ab1e-499d-8539-1b7e23f7fece)
 
+Now to Install Splunk enterprise on the Splunk server.
+
+![image](https://github.com/user-attachments/assets/29b10271-e945-407b-a9c0-64ef7b1ad77a)
+
+
 
 
 
