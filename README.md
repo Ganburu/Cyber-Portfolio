@@ -69,9 +69,20 @@ Change the target machine IP from 192.168.10.5 to 192.168.10.100 in the network 
 
 Now lets see if I can access the splunk server via my target machine. 
 
-![image](https://github.com/user-attachments/assets/fb2fc96d-8209-491d-9541-298068254416)
+![image](https://github.com/user-attachments/assets/b9e3d78b-2630-472f-949f-444c31aee777)
+
 
 Cool, it works.
+
+Next, Install Universal forwader from Splunk.com.
+
+![image](https://github.com/user-attachments/assets/e0c05d0b-4753-4a65-bd2a-995f206c5bd7)
+
+![image](https://github.com/user-attachments/assets/6733f057-95ea-453b-9249-253ab4c2628c)
+
+
+
+
 
 
 
