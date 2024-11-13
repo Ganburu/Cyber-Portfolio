@@ -17,7 +17,7 @@ Configure a new Nat network on virtual box so that the Windows computer, Windows
 
 ![image](https://github.com/user-attachments/assets/f51f7552-806a-4d50-bec0-cd9650bdab92)
 
-## Splunk Server Setup
+## Splunk Server Setup(Linux)
 
 Now to set up Splunk server. On the Splunk server I navigated to the installer-config. I edited the settings, which shows in the snap shot below.
 
@@ -57,9 +57,15 @@ Now to Install Splunk enterprise on the Splunk server.
 
 ![image](https://github.com/user-attachments/assets/350da1e9-958d-4946-8058-134c3df3dcda)
 
-## Target Machine Setup
+## Target Machine Setup(Windows)
 
-Change the target machine IP, so that there aren't any conflicts. 
+Change the target machine IP from 192.168.10.5 to 192.168.10.100 in the network connection setting, to avoid IP conflicts. 
+
+!![image](https://github.com/user-attachments/assets/4705f5b4-4b75-4c6f-9f50-27e71c948a8d)
+
+![image](https://github.com/user-attachments/assets/ddc0cccb-e55c-4001-b503-ba3bd8e651f8)
+
+![image](https://github.com/user-attachments/assets/82484f83-1ae8-47fb-9ca0-10a0ef9adcdc)
 
 
 
