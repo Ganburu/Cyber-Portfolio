@@ -100,6 +100,13 @@ Went to Raw Right clicked and saved as in the Target machine download directory.
 
 ![image](https://github.com/user-attachments/assets/766578b3-a029-4e2c-b0ee-058a71c1295a)
 
+In Downloads folder extract sysmon files and open Powershell with admin privillege in sysmon directory.
+
+![image](https://github.com/user-attachments/assets/558fce9a-9b68-4c5a-843c-86807d444f63)
+
+![image](https://github.com/user-attachments/assets/7a0961a9-02f6-4f81-9912-d0888d0b8ad9)
+
+
 
 
 
