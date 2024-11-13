@@ -106,6 +106,9 @@ In Downloads folder extract sysmon files and open Powershell with admin priville
 
 ![image](https://github.com/user-attachments/assets/7a0961a9-02f6-4f81-9912-d0888d0b8ad9)
 
+Type in ".\Sysmon64.exe -i ..\sysmonconfig.xml"  to install sysmon 
+
+![image](https://github.com/user-attachments/assets/4a5f6f38-b3cc-4854-9f44-d32e6c6cc109)
 
 
 
