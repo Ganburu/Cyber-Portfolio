@@ -67,6 +67,14 @@ Change the target machine IP from 192.168.10.5 to 192.168.10.100 in the network 
 
 ![image](https://github.com/user-attachments/assets/82484f83-1ae8-47fb-9ca0-10a0ef9adcdc)
 
+Now lets see if I can access the splunk server via my target machine. 
+
+![image](https://github.com/user-attachments/assets/fb2fc96d-8209-491d-9541-298068254416)
+
+Cool, it works.
+
+
+
 
 
 
