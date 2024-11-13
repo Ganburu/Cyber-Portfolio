@@ -111,6 +111,13 @@ Type in ".\Sysmon64.exe -i ..\sysmonconfig.xml"  to install sysmon
 
 Now to instruct Splunk Fowarder to send over the neccassary information by editing the inputs.conf file.
 
+![image](https://github.com/user-attachments/assets/ea894714-81b9-4f7d-a370-42188c145086)
+
+Right click inputs.conf, copy and created a new file in the local directory.
+
+![image](https://github.com/user-attachments/assets/a56d9a3c-5bfe-4ab2-b285-6f70fec30e04)
+
+
 
 
 
