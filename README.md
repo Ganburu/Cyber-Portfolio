@@ -1,9 +1,12 @@
 Active Directory Project (Home Lab)
 In this project, I will show the steps of setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Atomic Red Team. Explore how a domain environment works, learn how to ingest events to a SIEM and generate telemetry related to attacks seen in the wild. 
 
+## Diagram
 Here is a diagram of the network setup from app.diagrams.net that I made.
 
 ![image](https://github.com/user-attachments/assets/8018ec8f-716d-413f-be4c-34c0df14e771)
+
+## Virtual Machine Network Setup 
 
 Set up Windows 10 target computer, kali linux(the attacker), Windows server and Splunk Server on Virtualbox.
 
@@ -12,6 +15,8 @@ Set up Windows 10 target computer, kali linux(the attacker), Windows server and 
 Configure a new Nat network on virtual box so that the Windows computer, Windows server, and Splunk server are on the same network.
 
 ![image](https://github.com/user-attachments/assets/f51f7552-806a-4d50-bec0-cd9650bdab92)
+
+## Splunk Server Setup
 
 Now to set up Splunk server. On the Splunk server I navigated to the installer-config. I edited the settings, which shows in the snap shot below.
 
@@ -50,6 +55,12 @@ Now to Install Splunk enterprise on the Splunk server.
 ![image](https://github.com/user-attachments/assets/f778acce-27f8-43b2-9816-6dab5f4bf71f)
 
 ![image](https://github.com/user-attachments/assets/350da1e9-958d-4946-8058-134c3df3dcda)
+
+## Target Machine Setup
+
+Change the target machine IP, so that there aren't any conflicts. 
+
+
 
 
 
