@@ -71,7 +71,6 @@ Now lets see if I can access the splunk server via my target machine.
 
 ![image](https://github.com/user-attachments/assets/b9e3d78b-2630-472f-949f-444c31aee777)
 
-
 Cool, it works.
 
 Next, Install Universal forwader from Splunk.com.
@@ -110,6 +109,7 @@ Type in ".\Sysmon64.exe -i ..\sysmonconfig.xml"  to install sysmon
 
 ![image](https://github.com/user-attachments/assets/4a5f6f38-b3cc-4854-9f44-d32e6c6cc109)
 
+Now to instruct Splunk Fowarder to send over the neccassary information by editing the inputs.conf file.
 
 
 
