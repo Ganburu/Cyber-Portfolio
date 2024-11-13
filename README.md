@@ -80,6 +80,27 @@ Next, Install Universal forwader from Splunk.com.
 
 ![image](https://github.com/user-attachments/assets/6733f057-95ea-453b-9249-253ab4c2628c)
 
+![image](https://github.com/user-attachments/assets/22ac575b-fe9b-4604-ad77-09874271ea60)
+
+### Installation of Sysmon(System Monitor) on Target Machine.
+
+Download sysmon from "learn.microsoft.com".
+
+![image](https://github.com/user-attachments/assets/d97c7f3b-296f-448a-96b0-41e39cd39f56)
+
+Search Sysmon Olaf Config and download from Github.
+
+![image](https://github.com/user-attachments/assets/520d90e8-e71c-4bef-9603-81b4d2e4020e)
+
+![image](https://github.com/user-attachments/assets/5a23f674-cebd-40e5-bdff-b88cbcbbc98c)
+
+Went to Raw Right clicked and saved as in the Target machine download directory.
+
+![image](https://github.com/user-attachments/assets/1e36a25d-fc74-4494-b937-ba1317d5bfa4)
+
+![image](https://github.com/user-attachments/assets/766578b3-a029-4e2c-b0ee-058a71c1295a)
+
+
 
 
 
