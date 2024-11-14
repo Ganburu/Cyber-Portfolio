@@ -159,7 +159,12 @@ Click on "Apps" then click on "search and reporting".
 
 ![image](https://github.com/user-attachments/assets/59311fa8-00c8-427d-a354-6b26ae4d084f)
 
-In search, type "index=endpoint" and hit search. And it works. There are some event logs here.
+In search, type "index=endpoint" and hit search. And it works. There are 8282 events logged here.
+
+![image](https://github.com/user-attachments/assets/55ea5701-1bfd-4b1e-9a63-8da86f133b19)
+
+
+
 
 
 
