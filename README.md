@@ -137,6 +137,36 @@ Create a new index called "endpoint" and no edits just save. The endpoint index 
 
 ![image](https://github.com/user-attachments/assets/6eaca479-badd-49db-ad83-0b003260cbd2)
 
+Next, enable splunk server to receive data. Go to settings again and click on "Forwarding and receiving". 
+
+![image](https://github.com/user-attachments/assets/88175aac-5f2d-4304-a1dc-2b3229b2df3d)
+
+Click on Configure receiving.
+
+![image](https://github.com/user-attachments/assets/92547e8c-6f8e-4583-ba47-5ca82f400d55)
+
+Click New receving port and edit Listen on this port to "9997" then save.
+
+![image](https://github.com/user-attachments/assets/b2821b18-7385-4929-ae9d-4b22d38b4cfb)
+
+![image](https://github.com/user-attachments/assets/23da1c0d-1543-4bb3-a049-09cd1e5b8b3c)
+
+Test to see if data is coming to the endpoint.
+
+Click on "Apps" then click on "search and reporting".
+
+![image](https://github.com/user-attachments/assets/39751ce8-1c7f-4481-9d3a-cffae4c7b8fc)
+
+![image](https://github.com/user-attachments/assets/59311fa8-00c8-427d-a354-6b26ae4d084f)
+
+In search, type "index=endpoint" and hit search. And it works. There are some event logs here.
+
+
+
+
+
+
+
 
 
 
