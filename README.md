@@ -127,8 +127,15 @@ In the services app under the Splunk fowarder service, changed log on setting to
 
 ![image](https://github.com/user-attachments/assets/3b29107e-bcd6-48e8-af57-02e45efa6fcf)
 
+Back to the web in Splunk enterprise. Select settings and click indexes.
 
+![image](https://github.com/user-attachments/assets/9564f6ce-f9bf-49a6-ac03-3a68005f2915)
 
+Create a new index called "endpoint" and no edits just save. The endpoint index is where the forwarded event data will go to. 
+
+![image](https://github.com/user-attachments/assets/c57c8233-9683-406b-bece-3f64f65acd38)
+
+![image](https://github.com/user-attachments/assets/6eaca479-badd-49db-ad83-0b003260cbd2)
 
 
 
